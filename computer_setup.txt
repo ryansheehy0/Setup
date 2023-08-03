@@ -1,0 +1,144 @@
+Steps for setting up a new computer:
+
+Linux mint:
+    - Reverse mouse scrolling
+    - Change time to standard time and add date. Monday first day of the week.
+    - Don't allow grouping windows by application 
+    - Properly arrange monitor
+			- wget -O /tmp/framework-laptop-tldr.sh https://raw.githubusercontent.com/lightrush/framework-laptop-formula/main/framework-laptop-tldr.sh && bash /tmp/framework-laptop-tldr.sh
+    - Change default mouse pointer
+    - Set background to black by right clicking and setting as wallpaper
+			- Have to put black.png in user folder
+    - Remove desktop icons
+		- Change theme, folders and stuff to grey
+		- Disable Desktop and Window Effects
+		- Show battery percentage and time remaining. Right click and configure
+    - Install Git
+        - sudo apt install git
+    - Install node.js
+        - https://github.com/nodesource/distributions/blob/master/README.md
+		- Install doctoc
+				- sudo npm install -g doctoc
+
+- Start up applications
+		- Command: gnome-terminal
+    - Firefox
+		- VS Code
+
+- Apps:
+    - Gimp
+    - LibreCAD
+    - Android-Studio
+			- Settings -> Plugins -> IdeaVim
+    - Slack
+    - Discord
+    - Terminal
+				- Edit -> Preferences
+					- Set to fullscreen when clicked. Initial terminal size to max size.
+					- Disable all shortcuts besides copy, paste, and zoom in/out
+					- Change background and text color to black and white
+					- Change built in scheme to linux console
+					- Put CodeNewRoman fonts into ~/.local/share/fonts and change to that font in the terminal.
+		- VS Code
+				- Download from website
+				- settings.json
+				- keybindings.json
+				- Extensions
+					- Auto Rename Tag
+					- C/C++
+					- Code Spell Checker
+					- colorize
+					- ESlint
+						- Run: npm install -g eslint
+					- Gitlens
+					- htmlhint
+					- live server
+					- Material Icon Theme
+					- Neovim Color Theme
+						- If you need to redo the theme
+							- https://themes.vscode.one
+							- vsce package
+						- Three dots then install from VSIX
+					- Path Intellisense
+					- Prettier
+					- Project Manager
+					- Tailwind CSS Intellisense
+					- The Folding Stuff
+					- Turbo console log
+					- Vim
+    - Firefox
+        - Settings
+            - Open previous windows and tabs
+            - Dark theme
+            - Homepage and new windows/New tabs set to Blank Page
+            - Default search engine set to Duckduckgo
+            - Remove ask to save login and passwords
+            - Remove Allow Firefox to install and run studies/Allow firefox to send technical and interaction data to Mozilla
+						- Uncheck Control media via keyboard, headset, or virtual interface
+			- Default zoom: 80%
+			- More tools -> Customize Toolbar
+        - Extensions
+            - AdBlocker Ultimate
+            - Lighthouse
+            - Pay by Privacy.computer
+            - Pokemon Showdown Enhanced Tooltips
+            - Video Speed Controller
+						- Read Aloud: A Text To Speech Voice Reader
+						- Markdown Viewer
+							- Make the file ~/.mime.types
+							- Paste this and save: type=text/plain exts=md,mkd,mkdn,mdwn,mdown,markdown, desc="Markdown document"
+							- Markdown Viewer Manage Extention -> Preferences -> Refresh
+						- Color by Fardos
+            - Showdex
+    - Folder
+		- Zoom
+
+- Sign in:
+    - Discord
+    - Slack
+    - Gmail/Youtube
+    - ChatGPT
+    - Trello
+    - Github
+    - Amazon
+
+- Pages:
+    - Window 1
+        - https://chat.openai.com/
+        - https://trello.com/
+        - https://github.com/
+    - Window 2
+        - https://mail.google.com/
+        - https://www.wellsfargo.com/
+        - https://jahtruth.net/kofk-free/
+				- https://idp.bootcampspot.com/ui/?requestId=81549634-69bd-4973-9903-50c245b781c5
+				- https://git.bootcampcontent.com/University-of-California---Berkeley/UCB-VIRT-FSF-PT-06-2023-U-LOLC/-/blob/main/04-Web-APIs/01-Activities/20-Stu_Data-Attributes/Unsolved/index.html
+    
+Other optional programs:
+	- gnome-system monitor
+	- inkscape
+	- Peek
+	- Godot Game Engine
+	- latex - pdf maker
+			- sudo apt install fragmaster 
+			- sudo apt install texlive-latex-base texlive-latex-extra texlive-latex-recommended
+	- Freecad
+	- OnShape
+	- g++ - c++ compiler
+			- sudo apt install g++ 
+	- make - used to compile c++
+			- sudo apt install make 
+	- Blender
+	- figlet - ascii text creator
+			- sudo apt install figlet 
+	- tor - anonymous web browser
+			- https://www.torproject.org/
+Neovim:
+	- Install
+		sudo add-apt-repository ppa:neovim-ppa/unstable
+		sudo apt-get update
+		sudo apt-get install neovim
+		- Copy neovim config into ~/.config/nvim/
+		- :PackerSync
+		sudo apt-get install xclip
+			- Sets up clipboard in neovim

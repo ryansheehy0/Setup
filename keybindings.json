@@ -1,0 +1,99 @@
+// Place your key bindings in this file to override the defaults
+[
+  "//": "ctrl + shift + ` to open terminal",
+  "//": "ctrl + 1 , ctrl + 2, ctrl + 3, etc to move focus between slip windows",
+  "//": "z + c fold a section of code",
+  "//": "ctrl + . open code actions menu"
+  {
+    "key": "shift+h",
+    "command": "workbench.action.previousEditorInGroup",
+    "when": "editorTextFocus && vim.active && vim.mode == 'Normal'"
+  },
+  {
+    "key": "shift+l",
+    "command": "workbench.action.nextEditorInGroup",
+    "when": "editorTextFocus && vim.active && vim.mode == 'Normal'"
+  },
+  {
+    "key": "ctrl+w",
+    "command": "workbench.action.closeActiveEditor",
+    "when": "editorTextFocus && !untitledFile"
+  },
+  {
+    "key": "ctrl+h",
+    "command": "workbench.view.explorer"
+  },
+  {
+    "key": "ctrl+l",
+    "command": "workbench.action.focusActiveEditorGroup"
+  },
+  {
+    "key": "ctrl+b",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "ctrl+v",
+    "command": "workbench.action.splitEditor",
+    "when": "!terminalFocus && !webviewEditorFocus"
+  },
+  "//": "Quick Fix Menu",
+    {
+      "key": "ctrl+n",
+      "command": "-"
+    },
+    {
+      "key": "ctrl+n",
+      "command": "selectNextCodeAction",
+      "when": "codeActionMenuVisible"
+    },
+    {
+      "key": "ctrl+p",
+      "command": "-"
+    },
+    {
+      "key": "ctrl+p",
+      "command": "selectPrevCodeAction",
+      "when": "codeActionMenuVisible"
+    },
+    {
+      "key": "tab",
+      "command": "acceptSelectedCodeAction",
+      "when": "codeActionMenuVisible"
+    },
+  "//": "Explorer shortcuts",
+    {
+      "key": "a",
+      "command": "explorer.newFile",
+      "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+    },
+    {
+      "key": "shift+a",
+      "command": "explorer.newFolder",
+      "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+    },
+    {
+      "key": "r",
+      "command": "renameFile",
+      "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+    },
+    {
+      "key": "y",
+      "command": "filesExplorer.copy",
+      "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+    },
+    {
+      "key": "p",
+      "command": "filesExplorer.paste",
+      "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+    },
+    {
+      "key": "x",
+      "command": "filesExplorer.cut",
+      "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+    },
+    {
+      "key": "d",
+      "command": "deleteFile",
+      "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+    }
+]
