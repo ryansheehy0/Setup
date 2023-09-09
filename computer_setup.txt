@@ -3,7 +3,7 @@ Steps for setting up a new computer:
 Linux mint:
     - Reverse mouse scrolling
     - Change time to standard time and add date. Monday first day of the week.
-    - Don't allow grouping windows by application 
+    - Don't allow grouping windows by application
     - Properly arrange monitor
 			- wget -O /tmp/framework-laptop-tldr.sh https://raw.githubusercontent.com/lightrush/framework-laptop-formula/main/framework-laptop-tldr.sh && bash /tmp/framework-laptop-tldr.sh
     - Change default mouse pointer
@@ -22,7 +22,7 @@ Linux mint:
 
 - Start up applications
 		- Command: gnome-terminal
-    - Firefox
+    - Brave
 		- VS Code
 
 - Apps:
@@ -86,10 +86,29 @@ Linux mint:
 						- Read Aloud: A Text To Speech Voice Reader
 						- Markdown Viewer
 							- Make the file ~/.mime.types
-							- Paste this and save: type=text/plain exts=md,mkd,mkdn,mdwn,mdown,markdown, desc="Markdown document"
+							- Paste this into the mime file and save: type=text/plain exts=md,mkd,mkdn,mdwn,mdown,markdown, desc="Markdown document"
 							- Markdown Viewer Manage Extention -> Preferences -> Refresh
 						- Color by Fardos
             - Showdex
+		- Brave
+			- Settings
+				- Uncheck: Uncheck: Show home button
+				- Uncheck: Show Sidebar button
+				- 80%: Page zoom
+				- Uncheck: Show Brave Wallet icon on toolbar
+				- Blank page: New tab page shows
+				- Uncheck: Show Brave Rewards icon in address bar
+				- DuckDuckGo: Normal Window - Search engine used in the address bar
+				- DuckDuckGo: Private Window - Search engine used in the address bar
+				- Uncheck: Offer to save passwords
+				- Uncheck: Save and fill payment methods
+				- Hamburger menu -> Show Sidebar -> Never
+				- Check: Improve search suggestions
+				- Check: memory saver
+			- Extensions
+				- Video Speed Controller
+				- Pokémon Showdown Enhanced Tooltips
+				- Showdex
     - Folder
 		- Zoom
 
@@ -113,24 +132,24 @@ Linux mint:
         - https://jahtruth.net/kofk-free/
 				- https://idp.bootcampspot.com/ui/?requestId=81549634-69bd-4973-9903-50c245b781c5
 				- https://git.bootcampcontent.com/University-of-California---Berkeley/UCB-VIRT-FSF-PT-06-2023-U-LOLC/-/blob/main/04-Web-APIs/01-Activities/20-Stu_Data-Attributes/Unsolved/index.html
-    
+
 Other optional programs:
 	- gnome-system monitor
 	- inkscape
 	- Peek
 	- Godot Game Engine
 	- latex - pdf maker
-			- sudo apt install fragmaster 
+			- sudo apt install fragmaster
 			- sudo apt install texlive-latex-base texlive-latex-extra texlive-latex-recommended
 	- Freecad
 	- OnShape
 	- g++ - c++ compiler
-			- sudo apt install g++ 
+			- sudo apt install g++
 	- make - used to compile c++
-			- sudo apt install make 
+			- sudo apt install make
 	- Blender
 	- figlet - ascii text creator
-			- sudo apt install figlet 
+			- sudo apt install figlet
 	- tor - anonymous web browser
 			- https://www.torproject.org/
 Neovim:
