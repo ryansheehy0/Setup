@@ -8,12 +8,12 @@
   {
     "key": "shift+h",
     "command": "workbench.action.previousEditorInGroup",
-    "when": "editorTextFocus && amVim.mode == 'NORMAL'"
+    "when": "editorTextFocus && neovim.mode == 'normal'"
   },
   {
     "key": "shift+l",
     "command": "workbench.action.nextEditorInGroup",
-    "when": "editorTextFocus && amVim.mode == 'NORMAL'"
+    "when": "editorTextFocus && neovim.mode == 'normal'"
   },
   {
     "key": "ctrl+w",
