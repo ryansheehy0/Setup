@@ -41,4 +41,21 @@
     "window.zoomLevel": -1,
     "svg.preview.mode": "svg",
     "window.newWindowDimensions": "maximized",
+    "markdown-toc.orderedList": false,
+    "amVim.bindCtrlCommands": false,
+    "tailwind-fold.supportedLanguages": [
+      "handlebars",
+      "html",
+      "typescriptreact",
+      "javascriptreact",
+      "typescript",
+      "javascript",
+      "vue-html",
+      "vue",
+      "php",
+      "markdown",
+      "coffeescript",
+      "svelte",
+      "astro"
+    ],
 }

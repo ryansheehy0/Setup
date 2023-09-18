@@ -1,0 +1,21 @@
+[
+  "auiworks.amvim",
+  "formulahendry.auto-rename-tag",
+  "ms-vscode.cpptools",
+  "anjali.clipboard-history",
+  "streetsidesoftware.code-spell-checker",
+  "kamikillerto.vscode-colorize",
+  "dbaeumer.vscode-eslint",
+  "htmlhint.vscode-htmlhint",
+  "darkriszty.markdown-table-prettify",
+  "saycv.fix-markdown-toc",
+  "pkief.material-icon-theme",
+  "cweijan.vscode-mysql-client2",
+  "christian-kohler.path-intellisense",
+  "alefragnani.project-manager",
+  "jock.svg",
+  "bradlc.vscode-tailwindcss",
+  "stivo.tailwind-fold",
+  "georgejames.thefoldingstuff",
+  "shardulm94.trailing-spaces"
+]

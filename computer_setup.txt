@@ -43,53 +43,12 @@ Linux mint:
 				- Download from website
 				- settings.json
 				- keybindings.json
-				- Extensions
-					- Auto Rename Tag
-					- C/C++
-					- Code Spell Checker
-					- colorize
-					- ESlint
-						- Run: npm install -g eslint
-					- Gitlens
-					- htmlhint
-					- live server
-					- Material Icon Theme
-					- Neovim Color Theme
-						- If you need to redo the theme
-							- https://themes.vscode.one
-							- vsce package
-						- Three dots then install from VSIX
-					- Path Intellisense
-					- Prettier
-					- Project Manager
-					- Tailwind CSS Intellisense
-					- The Folding Stuff
-					- Turbo console log
-					- Vim
-    - Firefox
-        - Settings
-            - Open previous windows and tabs
-            - Dark theme
-            - Homepage and new windows/New tabs set to Blank Page
-            - Default search engine set to Duckduckgo
-            - Remove ask to save login and passwords
-            - Remove Allow Firefox to install and run studies/Allow firefox to send technical and interaction data to Mozilla
-						- Uncheck Control media via keyboard, headset, or virtual interface
-			- Default zoom: 80%
-			- More tools -> Customize Toolbar
-        - Extensions
-            - AdBlocker Ultimate
-            - Lighthouse
-            - Pay by Privacy.computer
-            - Pokemon Showdown Enhanced Tooltips
-            - Video Speed Controller
-						- Read Aloud: A Text To Speech Voice Reader
-						- Markdown Viewer
-							- Make the file ~/.mime.types
-							- Paste this into the mime file and save: type=text/plain exts=md,mkd,mkdn,mdwn,mdown,markdown, desc="Markdown document"
-							- Markdown Viewer Manage Extention -> Preferences -> Refresh
-						- Color by Fardos
-            - Showdex
+				- Run node installExtentions.js
+				- Install Neovim Color Theme
+					- If you need to redo the theme
+						- https://themes.vscode.one
+						- vsce package
+					- Three dots then install from VSIX
 		- Brave
 			- Settings
 				- Uncheck: Uncheck: Show home button
@@ -122,16 +81,22 @@ Linux mint:
     - Amazon
 
 - Pages:
-    - Window 1
-        - https://chat.openai.com/
-        - https://trello.com/
-        - https://github.com/
-    - Window 2
-        - https://mail.google.com/
-        - https://www.wellsfargo.com/
-        - https://jahtruth.net/kofk-free/
-				- https://idp.bootcampspot.com/ui/?requestId=81549634-69bd-4973-9903-50c245b781c5
-				- https://git.bootcampcontent.com/University-of-California---Berkeley/UCB-VIRT-FSF-PT-06-2023-U-LOLC/-/blob/main/04-Web-APIs/01-Activities/20-Stu_Data-Attributes/Unsolved/index.html
+	- Window 1
+		- https://chat.openai.com/
+		- https://trello.com/
+		- https://github.com/
+		- https://ryansheehy0.github.io/Cheat_Sheets/
+		- https://idp.bootcampspot.com/ui/?requestId=81549634-69bd-4973-9903-50c245b781c5
+		- https://git.bootcampcontent.com/University-of-California---Berkeley/UCB-VIRT-FSF-PT-06-2023-U-LOLC/-/blob/main/04-Web-APIs/01-Activities/20-Stu_Data-Attributes/Unsolved/index.html
+		- https://w1.zoro.se/
+	- Window 2
+		- https://mail.google.com/
+		- https://www.wellsfargo.com/
+		- https://jahtruth.net/kofk-free/
+	- Window 3
+		- Pokemon
+	- Window 4
+		- Long form videos and research notes
 
 Other optional programs:
 	- gnome-system monitor
@@ -161,3 +126,28 @@ Neovim:
 		- :PackerSync
 		sudo apt-get install xclip
 			- Sets up clipboard in neovim
+
+Firefox
+- Settings
+	- Open previous windows and tabs
+	- Dark theme
+	- Homepage and new windows/New tabs set to Blank Page
+	- Default search engine set to Duckduckgo
+	- Remove ask to save login and passwords
+	- Remove Allow Firefox to install and run studies/Allow firefox to send technical and interaction data to Mozilla
+	- Uncheck Control media via keyboard, headset, or virtual interface
+- Default zoom: 80%
+- More tools -> Customize Toolbar
+	- Extensions
+		- AdBlocker Ultimate
+		- Lighthouse
+		- Pay by Privacy.computer
+		- Pokemon Showdown Enhanced Tooltips
+		- Video Speed Controller
+		- Read Aloud: A Text To Speech Voice Reader
+		- Markdown Viewer
+			- Make the file ~/.mime.types
+			- Paste this into the mime file and save: type=text/plain exts=md,mkd,mkdn,mdwn,mdown,markdown, desc="Markdown document"
+			- Markdown Viewer Manage Extention -> Preferences -> Refresh
+		- Color by Fardos
+		- Showdex

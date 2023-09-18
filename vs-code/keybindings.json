@@ -8,12 +8,12 @@
   {
     "key": "shift+h",
     "command": "workbench.action.previousEditorInGroup",
-    "when": "editorTextFocus && vim.active && vim.mode == 'Normal'"
+    "when": "editorTextFocus && amVim.mode == 'NORMAL'"
   },
   {
     "key": "shift+l",
     "command": "workbench.action.nextEditorInGroup",
-    "when": "editorTextFocus && vim.active && vim.mode == 'Normal'"
+    "when": "editorTextFocus && amVim.mode == 'NORMAL'"
   },
   {
     "key": "ctrl+w",
@@ -33,24 +33,6 @@
     "command": "workbench.action.toggleSidebarVisibility"
   },
   "//": "Quick Fix Menu",
-    {
-      "key": "ctrl+n",
-      "command": "-"
-    },
-    {
-      "key": "ctrl+n",
-      "command": "selectNextCodeAction",
-      "when": "codeActionMenuVisible"
-    },
-    {
-      "key": "ctrl+p",
-      "command": "-"
-    },
-    {
-      "key": "ctrl+p",
-      "command": "selectPrevCodeAction",
-      "when": "codeActionMenuVisible"
-    },
     {
       "key": "tab",
       "command": "acceptSelectedCodeAction",
