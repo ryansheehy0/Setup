@@ -73,5 +73,17 @@
       "key": "d",
       "command": "deleteFile",
       "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
-    }
+    },
+    "//": "ctrl + shift + [ to fold",
+    "//": "Allows cursor to move over folds",
+      {
+          "key": "j",
+          "command": "cursorDown",
+          "when": "editorTextFocus && neovim.mode == 'normal'"
+      },
+      {
+          "key": "k",
+          "command": "cursorUp",
+          "when": "editorTextFocus && neovim.mode == 'normal'"
+      }
 ]

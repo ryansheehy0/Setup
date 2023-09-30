@@ -3,7 +3,12 @@ Steps for setting up a new computer:
 Linux mint:
     - Reverse mouse scrolling
     - Change time to standard time and add date. Monday first day of the week.
-    - Don't allow grouping windows by application
+		- Panel settings
+			- Don't allow grouping windows by application
+				- Applets -> Grouped Window List -> Setting button to the right -> uncheck Group windows by application
+			- Decrease font size of panel to 28
+			- No apps pinned to pannel
+				- Just use window key to popup explorer
     - Properly arrange monitor
 			- wget -O /tmp/framework-laptop-tldr.sh https://raw.githubusercontent.com/lightrush/framework-laptop-formula/main/framework-laptop-tldr.sh && bash /tmp/framework-laptop-tldr.sh
     - Change default mouse pointer
@@ -50,8 +55,9 @@ Linux mint:
 						- vsce package
 					- Three dots then install from VSIX
 		- Brave
+			- Install using terminal from this website: https://brave.com/linux/
 			- Settings
-				- Uncheck: Uncheck: Show home button
+				- Uncheck: Show home button
 				- Uncheck: Show Sidebar button
 				- 80%: Page zoom
 				- Uncheck: Show Brave Wallet icon on toolbar
@@ -64,14 +70,20 @@ Linux mint:
 				- Hamburger menu -> Show Sidebar -> Never
 				- Check: Improve search suggestions
 				- Check: memory saver
+				- Dark: Brave colors
+				- Go to a youtube video -> To the left of the address bar there's a button that's 2 circles with lines to their left and right -> Site settings -> Autoplay block
 			- Extensions
-				- Video Speed Controller
-				- Pokémon Showdown Enhanced Tooltips
+				- Video Speed Controller - video manager
+					- Settings -> Preferred speed: 2.8
+				- Pokemon Showdown Type Helper
 				- Showdex
+				- Markdown Viewer
+					- Options -> Allow access to file URLs
     - Folder
 		- Zoom
 
 - Sign in:
+		- Showdown Import teams
     - Discord
     - Slack
     - Gmail/Youtube
