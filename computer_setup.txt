@@ -49,6 +49,9 @@ Linux mint:
 				- settings.json
 				- keybindings.json
 				- Run node installExtentions.js
+				- Uncheck Vscode-neovim: Neovim Clean
+				- Put in ~/.config/nvim/init.vim
+					- au BufEnter * set fo-=c fo-=r fo-=o
 				- Install Neovim Color Theme
 					- If you need to redo the theme
 						- https://themes.vscode.one

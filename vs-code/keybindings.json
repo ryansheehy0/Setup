@@ -74,6 +74,11 @@
       "command": "deleteFile",
       "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
     },
+    {
+      "key": "enter",
+      "command": "editor.action.insertLineAfter",
+      "when": "editorTextFocus && neovim.mode == 'insert'"
+    },
     "//": "ctrl + shift + [ to fold",
     "//": "Allows cursor to move over folds",
       {

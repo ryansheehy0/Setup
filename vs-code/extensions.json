@@ -1,11 +1,11 @@
 [
   "formulahendry.auto-rename-tag",
   "ms-vscode.cpptools",
-  "anjali.clipboard-history",
   "streetsidesoftware.code-spell-checker",
   "kamikillerto.vscode-colorize",
   "dbaeumer.vscode-eslint",
   "htmlhint.vscode-htmlhint",
+  "kisstkondoros.vscode-gutter-preview",
   "darkriszty.markdown-table-prettify",
   "saycv.fix-markdown-toc",
   "pkief.material-icon-theme",
@@ -16,6 +16,7 @@
   "bradlc.vscode-tailwindcss",
   "stivo.tailwind-fold",
   "georgejames.thefoldingstuff",
+  "britesnow.vscode-toggle-quotes",
   "shardulm94.trailing-spaces",
   "asvetliakov.vscode-neovim"
 ]
