@@ -2,30 +2,28 @@
 [
   "//": "ctrl + shift + ` to open terminal",
   "//": "ctrl + 1 , ctrl + 2, ctrl + 3, etc to move focus between slip windows",
-  "//": "z + c fold a section of code",
   "//": "ctrl + . open code actions menu",
+  "//": "ctrl + space open code suggestions",
   "//": "select text + = formats the selected text",
+  "//": "ctrl + / wraps comments around that line",
   {
-    "key": "shift+h",
+    "key": "ctrl+h",
     "command": "workbench.action.previousEditorInGroup",
-    "when": "editorTextFocus && neovim.mode == 'normal'"
   },
   {
-    "key": "shift+l",
+    "key": "ctrl+l",
     "command": "workbench.action.nextEditorInGroup",
-    "when": "editorTextFocus && neovim.mode == 'normal'"
   },
   {
     "key": "ctrl+w",
     "command": "workbench.action.closeActiveEditor",
-    "when": "editorTextFocus && !untitledFile"
   },
   {
-    "key": "ctrl+h",
+    "key": "ctrl+shift+h",
     "command": "workbench.view.explorer"
   },
   {
-    "key": "ctrl+l",
+    "key": "ctrl+shift+l",
     "command": "workbench.action.focusActiveEditorGroup"
   },
   {
@@ -73,11 +71,6 @@
       "key": "d",
       "command": "deleteFile",
       "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
-    },
-    {
-      "key": "enter",
-      "command": "editor.action.insertLineAfter",
-      "when": "editorTextFocus && neovim.mode == 'insert'"
     },
     "//": "ctrl + shift + [ to fold",
     "//": "Allows cursor to move over folds",

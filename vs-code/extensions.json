@@ -1,6 +1,5 @@
 [
   "formulahendry.auto-rename-tag",
-  "ms-vscode.cpptools",
   "streetsidesoftware.code-spell-checker",
   "kamikillerto.vscode-colorize",
   "dbaeumer.vscode-eslint",
@@ -14,7 +13,6 @@
   "alefragnani.project-manager",
   "jock.svg",
   "bradlc.vscode-tailwindcss",
-  "stivo.tailwind-fold",
   "georgejames.thefoldingstuff",
   "britesnow.vscode-toggle-quotes",
   "shardulm94.trailing-spaces",
