@@ -3,11 +3,15 @@ Steps for setting up a new computer:
 Linux mint:
     - Reverse mouse scrolling
     - Change time to standard time and add date. Monday first day of the week.
+		- Add Panel to all monitors
+			- System Settings -> Panel -> Add new panel
 		- Panel settings
-			- Don't allow grouping windows by application
-				- Applets -> Grouped Window List -> Setting button to the right -> uncheck Group windows by application
+			- Add application to panels
+			- Add application to panels and don't allow grouping windows by application
+				- Right click on panel -> Applets -> (Click)Grouped Window List -> Setting button to the right -> uncheck Group windows by application
 			- Decrease font size of panel to 28
-			- No apps pinned to pannel
+			- No apps pinned to panel
+				- Right click on apps on panel and unpin to panel
 				- Just use window key to popup explorer
     - Properly arrange monitor
 			- wget -O /tmp/framework-laptop-tldr.sh https://raw.githubusercontent.com/lightrush/framework-laptop-formula/main/framework-laptop-tldr.sh && bash /tmp/framework-laptop-tldr.sh
