@@ -1,121 +1,135 @@
 Steps for setting up a new computer:
 
 Linux mint:
-    - Reverse mouse scrolling
-    - Change time to standard time and add date. Monday first day of the week.
-		- Add Panel to all monitors
-			- System Settings -> Panel -> Add new panel
-		- Panel settings
-			- Add application to panels
-			- Add application to panels and don't allow grouping windows by application
-				- Right click on panel -> Applets -> (Click)Grouped Window List -> Setting button to the right -> uncheck Group windows by application
-			- Decrease font size of panel to 28
-			- No apps pinned to panel
-				- Right click on apps on panel and unpin to panel
-				- Just use window key to popup explorer
-    - Properly arrange monitor
+	- System Settings
+		- Mouse and Touchpad -> Touchpad -> Uncheck Reverse scrolling direction
+		- Date & Time -> Uncheck Use 24h clock and Check Display the date
+		- Themes -> Change default mouse pointer and Icons Mint-Y-Sand
+		- Desktop -> Uncheck Everything under Desktop Icons
+		- Effects -> Uncheck Desktop and window effects
+	- Set background to black.png
+		- Move black.png to ~/ and then right click -> Set as Wallpaper
+	- Show battery percentage and time remaining
+		- Right click on battery -> Configure -> Display: Show percentage and time remaining
+	- Monitor Settings
+		- Properly arrange monitor
 			- wget -O /tmp/framework-laptop-tldr.sh https://raw.githubusercontent.com/lightrush/framework-laptop-formula/main/framework-laptop-tldr.sh && bash /tmp/framework-laptop-tldr.sh
-    - Change default mouse pointer
-    - Set background to black by right clicking and setting as wallpaper
-			- Have to put black.png in user folder
-    - Remove desktop icons
-		- Change theme, folders and stuff to grey
-		- Disable Desktop and Window Effects
-		- Show battery percentage and time remaining. Right click and configure
-    - Install Git
-        - sudo apt install git
-    - Install node.js
-        - https://github.com/nodesource/distributions/blob/master/README.md
-		- Install doctoc
-				- sudo npm install -g doctoc
+			- Then restart
+		- System Settings -> Display
+			- Settings -> Check Enable fractional scaling controls(experimental)
+			- Arrange monitors
+			- Laptop display 125%
+	- Panel settings
+		- Add panels to the top of all monitors
+			- System Settings -> Panel -> Add new panel
+				- Panel edit mode to move to top
+				- Change font size to 28 for each panel
+			- Right click on icons -> unpin from panel
+			- Do for each panel: Right click on panel -> Applets -> Click Grouped window list -> Click setting button to the right -> Uncheck Group windows by application
+	- Install
+		- sudo apt install git
+			- Setup ssh for git
+		- node ubuntu version
+			- https://github.com/nodesource/distributions/blob/master/README.md
+		- doctoc
+			- sudo npm install -g doctoc
 
 - Start up applications
-		- Command: gnome-terminal
-    - Brave
-		- VS Code
+	- Brave
+	- VS Code
 
 - Apps:
-    - Gimp
-    - LibreCAD
-    - Android-Studio
-			- Settings -> Plugins -> IdeaVim
-    - Slack
-    - Discord
-    - Terminal
-				- Edit -> Preferences
-					- Set to fullscreen when clicked. Initial terminal size to max size.
-					- Disable all shortcuts besides copy, paste, and zoom in/out
-					- Change background and text color to black and white
-					- Change built in scheme to linux console
-					- Put CodeNewRoman fonts into ~/.local/share/fonts and change to that font in the terminal.
-		- VS Code
-				- Download from website
-				- settings.json
-				- keybindings.json
-				- Run node installExtentions.js
-				- Uncheck Vscode-neovim: Neovim Clean
-				- Put in ~/.config/nvim/init.vim
-					- au BufEnter * set fo-=c fo-=r fo-=o
-				- Install Neovim Color Theme
-					- If you need to redo the theme
-						- https://themes.vscode.one
-						- vsce package
-					- Three dots then install from VSIX
-		- Brave
-			- Install using terminal from this website: https://brave.com/linux/
-			- Settings
+	- Gimp
+	- LibreCAD
+	- Android-Studio
+		- Settings -> Plugins -> IdeaVim
+	- Slack
+	- Discord
+	- Terminal
+		- Edit -> Preferences
+			- Set to fullscreen when clicked. Initial terminal size to max size. Max columns and rows
+			- Disable all shortcuts besides copy, paste, and zoom in/out
+			- Change built in scheme to linux console
+	- VS Code
+		- Download from website
+		- settings.json
+		- keybindings.json
+		- Run node installExtentions.js
+		- Uncheck Vscode-neovim: Neovim Clean
+		- Put in ~/.config/nvim/init.vim
+			- au BufEnter * set fo-=c fo-=r fo-=o
+		- Install xclip for copying to clipboard with "+" registry
+			- sudo apt install xclip
+		- Not necessary
+			- Install Neovim Color Theme
+				- If you need to redo the theme
+					- https://themes.vscode.one
+					- vsce package
+				- Three dots then install from VSIX
+	- Brave
+		- Install using terminal from this website: https://brave.com/linux/
+		- Settings
+			- Get started
+				- Blank page: New tab page shows
+			- Appearance
+				- Dark: Brave colors
 				- Uncheck: Show home button
 				- Uncheck: Show Sidebar button
 				- 80%: Page zoom
-				- Uncheck: Show Brave Wallet icon on toolbar
-				- Blank page: New tab page shows
+				- Uncheck: Show Brave Wallet button
+			- Brave Rewards
 				- Uncheck: Show Brave Rewards icon in address bar
+			- Search engine
 				- DuckDuckGo: Normal Window - Search engine used in the address bar
 				- DuckDuckGo: Private Window - Search engine used in the address bar
-				- Uncheck: Offer to save passwords
-				- Uncheck: Save and fill payment methods
-				- Hamburger menu -> Show Sidebar -> Never
 				- Check: Improve search suggestions
+			- Autofill and passwords
+				- Password Manager -> Top left hamburger menu -> Settings -> Uncheck: Offer to save passwords
+				- Payment methods -> Uncheck: Save and fill payment methods
+			- System
 				- Check: memory saver
-				- Dark: Brave colors
-				- Go to a youtube video -> To the left of the address bar there's a button that's 2 circles with lines to their left and right -> Site settings -> Autoplay block
-			- Extensions
-				- Video Speed Controller - video manager
-					- Settings -> Preferred speed: 2.8
-				- Pokemon Showdown Type Helper
-				- Showdex
-				- Markdown Viewer
-					- Options -> Allow access to file URLs
-    - Folder
-		- Zoom
+			- Hamburger menu -> More tools -> Show Sidebar -> Never
+		- Extensions
+			- Video Speed Controller - video manager
+				- Settings -> Preferred speed: 2.6 -> save
+			- Pokemon Showdown Type Helper
+			- Showdex
+			- Markdown Viewer
+				- Options -> Allow access to file URLs
+			- React Developer Tools
+	- Folder
+	- Zoom
 
 - Sign in:
-		- Showdown Import teams
-    - Discord
-    - Slack
-    - Gmail/Youtube
-    - ChatGPT
-    - Trello
-    - Github
-    - Amazon
+		- Discord
+		- Slack
+		- Gmail/Youtube
+			- ChatGPT
+			- Trello
+		- Github
+		- Amazon
 
 - Pages:
-	- Window 1
-		- https://chat.openai.com/
-		- https://trello.com/
-		- https://github.com/
-		- https://ryansheehy0.github.io/Cheat_Sheets/
-		- https://idp.bootcampspot.com/ui/?requestId=81549634-69bd-4973-9903-50c245b781c5
-		- https://git.bootcampcontent.com/University-of-California---Berkeley/UCB-VIRT-FSF-PT-06-2023-U-LOLC/-/blob/main/04-Web-APIs/01-Activities/20-Stu_Data-Attributes/Unsolved/index.html
-		- https://w1.zoro.se/
-	- Window 2
+	- Window 1 on laptop screen
 		- https://mail.google.com/
 		- https://www.wellsfargo.com/
 		- https://jahtruth.net/kofk-free/
-	- Window 3
-		- Pokemon
-	- Window 4
-		- Long form videos and research notes
+		- https://www.pkmn.help/
+	- Window 2 Right side of top monitor
+		- https://chat.openai.com/
+		- https://trello.com/
+		- https://nulltodos.com/
+		- https://docs.google.com/spreadsheets/
+		- https://www.linkedin.com/
+	- Window 3 Left side of top monitor
+		- https://www.youtube.com/
+	- Window 4 Right side of left monitor
+		- https://github.com/
+		- https://tailwindcss.com/docs/
+		- https://www.heroku.com/
+		- https://www.netlify.com/
+	- Window 5 Left side of left monitor
+		- https://ryansheehy0.github.io/Cheat_Sheets/
 
 Other optional programs:
 	- gnome-system monitor
@@ -123,19 +137,19 @@ Other optional programs:
 	- Peek
 	- Godot Game Engine
 	- latex - pdf maker
-			- sudo apt install fragmaster
-			- sudo apt install texlive-latex-base texlive-latex-extra texlive-latex-recommended
+		- sudo apt install fragmaster
+		- sudo apt install texlive-latex-base texlive-latex-extra texlive-latex-recommended
 	- Freecad
 	- OnShape
 	- g++ - c++ compiler
-			- sudo apt install g++
+		- sudo apt install g++
 	- make - used to compile c++
-			- sudo apt install make
+		- sudo apt install make
 	- Blender
 	- figlet - ascii text creator
-			- sudo apt install figlet
+		- sudo apt install figlet
 	- tor - anonymous web browser
-			- https://www.torproject.org/
+		- https://www.torproject.org/
 Neovim:
 	- Install
 		sudo add-apt-repository ppa:neovim-ppa/unstable
