@@ -91,7 +91,7 @@ Linux mint:
 			- Hamburger menu -> More tools -> Show Sidebar -> Never
 		- Extensions
 			- Video Speed Controller - video manager
-				- Settings -> Preferred speed: 2.6 -> save
+				- Settings -> Preferred speed: 2.6 and Remember playback speed -> save
 			- Pokemon Showdown Type Helper
 			- Showdex
 			- Markdown Viewer
