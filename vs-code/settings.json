@@ -1,9 +1,10 @@
+
 {
     "//": "Icon Themes",
       "workbench.iconTheme": "material-icon-theme",
     "//": "Tabs",
       "editor.tabSize": 2,
-      "editor.insertSpaces": true,
+      "editor.insertSpaces": false,
     "//": "Remove highlighting of occurrences of currently selected word",
       "editor.occurrencesHighlight": "off",
     "//": "Enables word wrapping",
@@ -58,4 +59,5 @@
         "astro"
       ],
       "diffEditor.ignoreTrimWhitespace": false,
+      "editor.stickyScroll.enabled": false,
   }

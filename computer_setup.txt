@@ -18,14 +18,16 @@ Linux mint:
 		- System Settings -> Display
 			- Settings -> Check Enable fractional scaling controls(experimental)
 			- Arrange monitors
-			- Laptop display 125%
+			- Laptop display 150%
+			- Other displays 100%
 	- Panel settings
 		- Add panels to the top of all monitors
 			- System Settings -> Panel -> Add new panel
 				- Panel edit mode to move to top
 				- Change font size to 28 for each panel
 			- Right click on icons -> unpin from panel
-			- Do for each panel: Right click on panel -> Applets -> Click Grouped window list -> Click setting button to the right -> Uncheck Group windows by application
+			- Do for each panel: Right click on panel -> Applets -> Click Grouped window list -> Click the + button -> Click setting button to the right -> Uncheck Group windows by application
+			- Do for each panel: Right click on panel -> Applets -> Click Calendar -> Click the + button
 	- Install
 		- sudo apt install git
 			- Setup ssh for git
@@ -39,10 +41,15 @@ Linux mint:
 	- VS Code
 
 - Apps:
-	- Gimp
-	- LibreCAD
-	- Android-Studio
-		- Settings -> Plugins -> IdeaVim
+	- Neovim:
+		- Install
+			sudo add-apt-repository ppa:neovim-ppa/unstable
+			sudo apt-get update
+			sudo apt-get install neovim
+		- Copy neovim config into ~/.config/nvim/
+		- :PackerSync
+		- Sets up clipboard with "+" registry in neovim
+			sudo apt-get install xclip
 	- Slack
 	- Discord
 	- Terminal
@@ -58,8 +65,6 @@ Linux mint:
 		- Uncheck Vscode-neovim: Neovim Clean
 		- Put in ~/.config/nvim/init.vim
 			- au BufEnter * set fo-=c fo-=r fo-=o
-		- Install xclip for copying to clipboard with "+" registry
-			- sudo apt install xclip
 		- Not necessary
 			- Install Neovim Color Theme
 				- If you need to redo the theme
@@ -71,14 +76,14 @@ Linux mint:
 		- Settings
 			- Get started
 				- Blank page: New tab page shows
+				- Make default browser
 			- Appearance
 				- Dark: Brave colors
 				- Uncheck: Show home button
+				- Uncheck: Show Brave Wallet button
 				- Uncheck: Show Sidebar button
 				- 80%: Page zoom
-				- Uncheck: Show Brave Wallet button
-			- Brave Rewards
-				- Uncheck: Show Brave Rewards icon in address bar
+			- Brave Rewards icon in top right -> right click -> Hide
 			- Search engine
 				- DuckDuckGo: Normal Window - Search engine used in the address bar
 				- DuckDuckGo: Private Window - Search engine used in the address bar
@@ -88,17 +93,19 @@ Linux mint:
 				- Payment methods -> Uncheck: Save and fill payment methods
 			- System
 				- Check: memory saver
-			- Hamburger menu -> More tools -> Show Sidebar -> Never
+			- Hamburger menu top right -> More tools -> Show Sidebar -> Never
 		- Extensions
 			- Video Speed Controller - video manager
-				- Settings -> Preferred speed: 2.6 and Remember playback speed -> save
+				- Options -> Preferred speed: 2.6, Check Remember playback speed, and Force last saved speed -> save
 			- Pokemon Showdown Type Helper
 			- Showdex
 			- Markdown Viewer
-				- Options -> Allow access to file URLs
+				- Manage Extension -> Allow access to file URLs
 			- React Developer Tools
 	- Folder
 	- Zoom
+	- Burp Suite
+		- Download from website: https://portswigger.net/burp/communitydownload
 
 - Sign in:
 		- Discord
@@ -108,28 +115,28 @@ Linux mint:
 			- Trello
 		- Github
 		- Amazon
+		- Portswigger
 
 - Pages:
 	- Window 1 on laptop screen
 		- https://mail.google.com/
 		- https://www.wellsfargo.com/
 		- https://jahtruth.net/kofk-free/
-		- https://www.pkmn.help/
 	- Window 2 Right side of top monitor
 		- https://chat.openai.com/
 		- https://trello.com/
 		- https://nulltodos.com/
 		- https://docs.google.com/spreadsheets/
-		- https://www.linkedin.com/
+		- https://tailwindcss.com/docs/
 	- Window 3 Left side of top monitor
+		- https://portswigger.net/
 		- https://www.youtube.com/
 	- Window 4 Right side of left monitor
 		- https://github.com/
-		- https://tailwindcss.com/docs/
-		- https://www.heroku.com/
+		- https://vercel.com/
 		- https://www.netlify.com/
 	- Window 5 Left side of left monitor
-		- https://ryansheehy0.github.io/Cheat_Sheets/
+		- https://rscheatsheets.com/
 
 Other optional programs:
 	- gnome-system monitor
@@ -150,15 +157,10 @@ Other optional programs:
 		- sudo apt install figlet
 	- tor - anonymous web browser
 		- https://www.torproject.org/
-Neovim:
-	- Install
-		sudo add-apt-repository ppa:neovim-ppa/unstable
-		sudo apt-get update
-		sudo apt-get install neovim
-		- Copy neovim config into ~/.config/nvim/
-		- :PackerSync
-		sudo apt-get install xclip
-			- Sets up clipboard in neovim
+	- Gimp
+	- LibreCAD
+	- Android-Studio
+		- Settings -> Plugins -> IdeaVim
 
 Firefox
 - Settings
