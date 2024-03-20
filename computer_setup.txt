@@ -107,6 +107,7 @@ Linux mint:
 	- Zoom
 	- Burp Suite
 		- Download from website: https://portswigger.net/burp/communitydownload
+		- Top left Burp -> Settings -> User interface -> Display -> Theme: Dark and Scaling: Configure scaling settings, Use system DPI settings, Scale factor: 2.0
 
 - Sign in:
 		- Discord
