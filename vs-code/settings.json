@@ -1,4 +1,3 @@
-
 {
     "//": "Icon Themes",
       "workbench.iconTheme": "material-icon-theme",
@@ -60,4 +59,11 @@
       ],
       "diffEditor.ignoreTrimWhitespace": false,
       "editor.stickyScroll.enabled": false,
+      "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+      },
+      "editor.rulers": [
+        80
+      ],
+      "markdown-toc.depthFrom": 2,
   }

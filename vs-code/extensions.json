@@ -1,7 +1,9 @@
 [
   "formulahendry.auto-rename-tag",
+  "ms-vscode.cpptools",
   "streetsidesoftware.code-spell-checker",
   "kamikillerto.vscode-colorize",
+  "cweijan.dbclient-jdbc",
   "dbaeumer.vscode-eslint",
   "htmlhint.vscode-htmlhint",
   "kisstkondoros.vscode-gutter-preview",
@@ -17,5 +19,6 @@
   "britesnow.vscode-toggle-quotes",
   "shardulm94.trailing-spaces",
   "asvetliakov.vscode-neovim",
-  "tomoki1207.pdf"
+  "tomoki1207.pdf",
+  "kirozen.wordcounter"
 ]
