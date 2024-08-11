@@ -33,8 +33,6 @@ Linux mint:
 			- Setup ssh for git
 		- node ubuntu version
 			- https://github.com/nodesource/distributions/blob/master/README.md
-		- doctoc
-			- sudo npm install -g doctoc
 
 - Start up applications
 	- Brave
@@ -46,10 +44,11 @@ Linux mint:
 			sudo add-apt-repository ppa:neovim-ppa/unstable
 			sudo apt-get update
 			sudo apt-get install neovim
-		- Copy neovim config into ~/.config/nvim/
-		- :PackerSync
 		- Sets up clipboard with "+" registry in neovim
 			sudo apt-get install xclip
+		- If you want to use stand alone
+			- Copy neovim config into ~/.config/nvim/
+			- :PackerSync
 	- Slack
 	- Discord
 	- Terminal
@@ -103,11 +102,15 @@ Linux mint:
 			- Markdown Viewer
 				- Manage Extension -> Allow access to file URLs
 			- React Developer Tools
-	- Folder
+			- Wappalyzer - Technology profiler
+			- Google Translate
+			- Quick source viewer
+			- Chrome notes
 	- Zoom
 	- Burp Suite
 		- Download from website: https://portswigger.net/burp/communitydownload
 		- Top left Burp -> Settings -> User interface -> Display -> Theme: Dark and Scaling: Configure scaling settings, Use system DPI settings, Scale factor: 2.0
+	- Gpick
 
 - Sign in:
 		- Discord
@@ -120,25 +123,26 @@ Linux mint:
 		- Portswigger
 
 - Pages:
-	- Window 1 on laptop screen
+	- Window 1
 		- https://mail.google.com/
-		- https://www.wellsfargo.com/
+		- https://www.deanza.edu/
 		- https://jahtruth.net/kofk-free/
-	- Window 2 Right side of top monitor
+		- https://github.com/ryansheehy0
+	- Window 2
 		- https://chat.openai.com/
-		- https://trello.com/
 		- https://nulltodos.com/
 		- https://docs.google.com/spreadsheets/
-		- https://tailwindcss.com/docs/
-	- Window 3 Left side of top monitor
-		- https://portswigger.net/
+		- big red button
+	- Window 3
 		- https://www.youtube.com/
-	- Window 4 Right side of left monitor
-		- https://github.com/
-		- https://vercel.com/
-		- https://www.netlify.com/
-	- Window 5 Left side of left monitor
+	- Window 4
 		- https://rscheatsheets.com/
+	- Pokemon
+		- https://play.pokemonshowdown.com/
+		- https://docs.google.com/spreadsheets/
+		- https://www.pkmn.help/defense/
+		- https://nerd-of-now.github.io/NCP-VGC-Damage-Calculator/
+		- https://www.pikalytics.com/pokedex/
 
 Other optional programs:
 	- gnome-system monitor
@@ -163,6 +167,7 @@ Other optional programs:
 	- LibreCAD
 	- Android-Studio
 		- Settings -> Plugins -> IdeaVim
+	- Obsidian
 
 Firefox
 - Settings
