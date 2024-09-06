@@ -28,6 +28,8 @@ Linux mint:
 			- Right click on icons -> unpin from panel
 			- Do for each panel: Right click on panel -> Applets -> Click Grouped window list -> Click the + button -> Click setting button to the right -> Uncheck Group windows by application
 			- Do for each panel: Right click on panel -> Applets -> Click Calendar -> Click the + button
+	- Disable caps lock key
+		- keyboard -> Layouts -> Options -> Caps Lock behavior -> Caps Lock is disabled
 	- Install
 		- sudo apt install git
 			- Setup ssh for git
