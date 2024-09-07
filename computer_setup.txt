@@ -30,6 +30,7 @@ Linux mint:
 			- Do for each panel: Right click on panel -> Applets -> Click Calendar -> Click the + button
 	- Disable caps lock key
 		- keyboard -> Layouts -> Options -> Caps Lock behavior -> Caps Lock is disabled
+	- Right click Menu(Linux mint icon) -> Configure -> Menu -> Uncheck Show recents
 	- Install
 		- sudo apt install git
 			- Setup ssh for git
