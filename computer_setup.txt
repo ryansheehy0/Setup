@@ -4,7 +4,7 @@ Linux mint:
 	- System Settings
 		- Mouse and Touchpad -> Touchpad -> Uncheck Reverse scrolling direction
 		- Date & Time -> Uncheck Use 24h clock and Check Display the date
-		- Themes -> Change default mouse pointer and Icons Mint-Y-Sand
+		- Themes -> Change default mouse pointer, Icons Mint-Y-Sand, Mint-Y-Dark-Blue
 		- Desktop -> Uncheck Everything under Desktop Icons
 		- Effects -> Uncheck Desktop and window effects
 	- Set background to black.png
