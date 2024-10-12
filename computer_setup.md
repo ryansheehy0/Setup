@@ -42,6 +42,7 @@
 - sudo apt install git
 - sudo apt install g++
 - sudo apt install make
+- sudo apt install ncdu
 - Gnome-system-monitor
 - Discord
 - Zoom
