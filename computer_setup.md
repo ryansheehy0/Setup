@@ -109,6 +109,17 @@
 - Video Speed Controller - video manager
 	- Options -> Preferred speed: 2.6, Check Remember playback speed, and Force last saved speed -> save
 	- Mange Extension -> Check Allow in Private
+- TubeMod
+	- Header
+		- Hide Microphone Search Icon
+		- Hide Create Icon
+	- Sidebar
+		- Hide Shorts Button
+	- Home
+		- Hide Posts, News or Shorts
+	- Video
+		- Hide Download Button
+		- Hide Suggested Videos Shorts
 
 ## Sign Into
 - Discord
