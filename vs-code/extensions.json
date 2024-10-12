@@ -1,6 +1,7 @@
 [
   "formulahendry.auto-rename-tag",
   "ms-vscode.cpptools",
+  "twxs.cmake",
   "streetsidesoftware.code-spell-checker",
   "kamikillerto.vscode-colorize",
   "cweijan.dbclient-jdbc",
