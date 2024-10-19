@@ -10,6 +10,7 @@
 - Effects -> Uncheck Desktop and window effects
 - Screensaver -> Customize -> Uncheck Show album art
 - Keyboard -> Layouts -> Options -> Caps Lock behavior -> Caps Lock is disabled
+- Keyboard -> Shortcuts -> Launch calculator -> ctrl + super/windows key
 - Startup Applications -> Brave and Visual Studio Code
 
 ### Monitor Settings
