@@ -12,6 +12,8 @@
 - Keyboard -> Layouts -> Options -> Caps Lock behavior -> Caps Lock is disabled
 - Keyboard -> Shortcuts -> Launch calculator -> ctrl + super/windows key
 - Startup Applications -> Brave and Visual Studio Code
+	- Copy and paste music_shuffle.sh into ~/
+	- Startup Application -> + button -> Choose command -> Name: Music and Command: browse, then select music_shuffle.sh
 
 ### Monitor Settings
 - Properly arrange monitor
