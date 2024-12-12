@@ -65,7 +65,10 @@
 - Edit -> Preferences
 	- Set to fullscreen when clicked. Initial terminal size to max size. Max columns and rows
 	- Disable all shortcuts besides copy, paste, and zoom in/out
-	- Change built in scheme to linux console
+	- Colors
+		- Uncheck Use colors from system theme
+		- Built-in schemes: White on black
+		- Change built in scheme to linux console
 
 ### Visual Studio Code
 - Download from website: https://code.visualstudio.com/
