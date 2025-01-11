@@ -60,6 +60,13 @@
 - Sets up clipboard with "+" registry in neovim
 	- sudo apt-get install xclip
 
+#### LazyVim
+- rm -rf ~/.config/nvim
+- git clone https://github.com/LazyVim/starter ~/.config/nvim
+- mv ./BlexMono /usr/share/fonts/truetype/
+- sudo fc-cache -f -v
+- In Terminal -> Edit -> Preferences -> Check Custom Fonts -> Select BlexMono Nerd Font Mono
+
 ### Terminal
 - Edit -> Preferences
 	- Set to fullscreen when clicked. Initial terminal size to max size. Max columns and rows
