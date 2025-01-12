@@ -9,7 +9,7 @@
 - Desktop -> Uncheck Everything under Desktop Icons
 - Effects -> Uncheck Desktop and window effects
 - Screensaver -> Customize -> Uncheck Show album art
-- Keyboard -> Layouts -> Options -> Caps Lock behavior -> Caps Lock is disabled
+- Keyboard -> Layouts -> Options -> Caps Lock behavior -> Make Caps Lock an additional Super
 - Startup Applications -> Brave and Visual Studio Code
 	- Copy and paste music_shuffle.sh into ~/
 	- Startup Application -> + button -> Choose command -> Name: Music and Command: browse, then select music_shuffle.sh
@@ -65,9 +65,8 @@
 - git clone https://github.com/LazyVim/starter ~/.config/nvim
 - mv ./BlexMono /usr/share/fonts/truetype/
 - sudo fc-cache -f -v
-- In Terminal -> Edit -> Preferences -> 
+- In Terminal -> Edit -> Preferences -> Check Custom font: -> BlexMono Nerd Font Mono 11
 - sudo apt install fzf
-- space u C -> change theme to slate
 
 ### Terminal
 - Edit -> Preferences
