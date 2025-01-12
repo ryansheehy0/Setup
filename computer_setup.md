@@ -76,6 +76,10 @@
 		- Uncheck Use colors from system theme
 		- Built-in schemes: White on black
 		- Change built in scheme to linux console
+- sudo nvim ~/.bashrc
+  - Search for PS1. There should be 3 places where the variable is set.
+  - Remove the `\u@\h :` from all 3 places where the variable is set.
+    - Ex: `PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '` -> `PS1='${debian_chroot:+($debian_chroot)}\[\033[01;34m\]\w\[\033[00m\]\$ '`
 
 ### Visual Studio Code
 - Download from website: https://code.visualstudio.com/
