@@ -66,7 +66,7 @@
 - mv ./BlexMono /usr/share/fonts/truetype/
 - sudo fc-cache -f -v
 - In Terminal -> Edit -> Preferences -> Check Custom font: -> BlexMono Nerd Font Mono 11
-- sudo apt install fzf
+- sudo apt install fzf ripgrep fd-find
 
 ### Terminal
 - Edit -> Preferences
