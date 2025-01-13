@@ -10,9 +10,13 @@
 - Effects -> Uncheck Desktop and window effects
 - Screensaver -> Customize -> Uncheck Show album art
 - Keyboard -> Layouts -> Options -> Caps Lock behavior -> Make Caps Lock an additional Super
-- Startup Applications -> Brave and Visual Studio Code
+- Startup Applications -> Brave
 	- Copy and paste music_shuffle.sh into ~/
 	- Startup Application -> + button -> Choose command -> Name: Music and Command: browse, then select music_shuffle.sh
+- Windows -> Alt-Tab
+  - Check Display the alt-tab switcher on the primary monitor instead of the active one
+  - Delay before displaying the alt-tab switcher(milliseconds) set to 0
+  - Check Warp mouse pointer to the new focused window
 
 ### Monitor Settings
 - Properly arrange monitor
@@ -68,6 +72,7 @@
 - In Terminal -> Edit -> Preferences -> Check Custom font: -> BlexMono Nerd Font Mono 11
 - sudo apt install fzf ripgrep fd-find
 - Go to https://github.com/jesseduffield/lazygit?tab=readme-ov-file#ubuntu and run commands
+- cp -r ./Lazy_Vim/plugins/* ~/.config/nvim/lua/plugins/
 
 ### Terminal
 - Edit -> Preferences
@@ -81,15 +86,6 @@
   - Search for PS1. There should be 3 places where the variable is set.
   - Remove the `\u@\h :` from all 3 places where the variable is set.
     - Ex: `PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '` -> `PS1='${debian_chroot:+($debian_chroot)}\[\033[01;34m\]\w\[\033[00m\]\$ '`
-
-### Visual Studio Code
-- Download from website: https://code.visualstudio.com/
-- settings.json
-- keybindings.json
-- Run node installExtentions.js
-- Uncheck Vscode-neovim: Neovim Clean
-- Put in ~/.config/nvim/init.vim
-	- au BufEnter * set fo-=c fo-=r fo-=o
 
 ### Brave
 - Install from the terminal and instructions on the website: https://brave.com/linux/
@@ -137,7 +133,7 @@
 - Setup ssh for git
 - Amazon
 
-## Pages
+## Windows
 - Window 1
 	- https://mail.google.com/
 	- https://github.com/ryansheehy0
@@ -147,6 +143,5 @@
 	- https://docs.google.com/spreadsheets/
 	- Big Red Button
 - Window 3
-	- https://www.youtube.com/
-- Window 4
 	- https://rscheatsheets.com/
+	- https://www.youtube.com/
