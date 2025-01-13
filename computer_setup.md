@@ -67,6 +67,7 @@
 - sudo fc-cache -f -v
 - In Terminal -> Edit -> Preferences -> Check Custom font: -> BlexMono Nerd Font Mono 11
 - sudo apt install fzf ripgrep fd-find
+- Go to https://github.com/jesseduffield/lazygit?tab=readme-ov-file#ubuntu and run commands
 
 ### Terminal
 - Edit -> Preferences
