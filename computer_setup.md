@@ -13,6 +13,8 @@
 - Startup Applications -> Brave
 	- Copy and paste music_shuffle.sh into ~/
 	- Startup Application -> + button -> Choose command -> Name: Music and Command: browse, then select music_shuffle.sh
+	- Copy and paste ./Lazy_Vim/nvim_startup.sh into ~/
+	- Startup Application -> + button -> Choose command -> Name: Nvim startup and Command: browse, then select nvim_startup.sh
 - Windows -> Alt-Tab
   - Check Display the alt-tab switcher on the primary monitor instead of the active one
   - Delay before displaying the alt-tab switcher(milliseconds) set to 0
