@@ -1,5 +1,24 @@
 # Steps for setting up a new computer
 
+<!-- mtoc-start -->
+
+* [Linux Mint](#linux-mint)
+  * [System Settings](#system-settings)
+  * [Monitor Settings](#monitor-settings)
+  * [Panel Settings](#panel-settings)
+  * [Miscellaneous](#miscellaneous)
+* [Applications](#applications)
+  * [Neovim](#neovim)
+    * [LazyVim](#lazyvim)
+  * [Terminal](#terminal)
+  * [Brave](#brave)
+    * [Settings](#settings)
+    * [Extensions](#extensions)
+* [Sign Into](#sign-into)
+* [Windows](#windows)
+
+<!-- mtoc-end -->
+
 ## Linux Mint
 
 ### System Settings
@@ -116,15 +135,18 @@
 - Hamburger menu top right -> More tools -> Show Sidebar -> Never
 
 #### Extensions
-- Chrome Notes
+- Chrome Show Tab Numbers
+- Google Docs Offline
 - Google Translate
 - Markdown Viewer
 	- Manage Extension -> Allow access to file URLs
-- Pokemon Showdown Type Helper
-- Showdex
 - Video Speed Controller - video manager
 	- Options -> Preferred speed: 2.6, Check Remember playback speed, and Force last saved speed -> save
 	- Mange Extension -> Check Allow in Private
+- Pokemon
+	- Chrome Notes
+	- Pokemon Showdown Type Helper
+	- Showdex
 
 ## Sign Into
 - Discord
