@@ -135,7 +135,6 @@
 - Hamburger menu top right -> More tools -> Show Sidebar -> Never
 
 #### Extensions
-- Chrome Show Tab Numbers
 - Google Docs Offline
 - Google Translate
 - Markdown Viewer
