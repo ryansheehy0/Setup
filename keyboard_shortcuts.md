@@ -3,13 +3,14 @@
 <!-- mtoc-start -->
 
 * [Lazy Vim](#lazy-vim)
+  * [Calculator](#calculator)
   * [Problems](#problems)
 * [Linux Mint](#linux-mint)
 
 <!-- mtoc-end -->
 
 ## Lazy Vim
-Lazyvim is a distribution for Neovim.
+Lazy Vim is a distribution for Neovim.
 
 | Keys | Description |
 |-|-|
@@ -23,10 +24,18 @@ Lazyvim is a distribution for Neovim.
 | shift + l | Move to right tab |
 | space bd | Delete cur buffer |
 | space \| | Slit window right |
-| space b shift + D | Delete window and buffer |
 | space ff | Open fuzzy finder |
 | select gc | Comment block of code |
 | :Mtoc | Insert table of contents for markdown files |
+
+### Calculator
+- Replace text with the calculation
+	- Select text you want to calculate
+	- :'<,'>Calculator
+- Paste the calculation
+	- Select text you want to calculate
+	- Past with vp
+	- :Calculator
 
 ### Problems
 - Markdown
@@ -37,6 +46,7 @@ Lazyvim is a distribution for Neovim.
 	- Save the folding of a file
 - Get word/char count of selected text?
 - Run calculation from selected text
+	- Select text, pipe into bc, store result in register. Probably need custom command for this.
 
 ## Linux Mint
 - Use alt-tab to navigate between windows that are on top of each other.
