@@ -11,11 +11,12 @@
   * [Neovim](#neovim)
     * [LazyVim](#lazyvim)
   * [Terminal](#terminal)
-  * [Brave](#brave)
-    * [Settings](#settings)
-    * [Extensions](#extensions)
+  * [Chromium Web Browser](#chromium-web-browser)
 * [Sign Into](#sign-into)
 * [Windows](#windows)
+* [Phone](#phone)
+  * [Applications](#applications-1)
+  * [Settings](#settings)
 
 <!-- mtoc-end -->
 
@@ -29,11 +30,15 @@
 - Effects -> Uncheck Desktop and window effects
 - Screensaver -> Customize -> Uncheck Show album art
 - Keyboard -> Layouts -> Options -> Caps Lock behavior -> Make Caps Lock an additional Super
-- Startup Applications -> Brave
-	- Copy and paste music_shuffle.sh into ~/
-	- Startup Application -> + button -> Choose command -> Name: Music and Command: browse, then select music_shuffle.sh
-	- Copy and paste ./Lazy_Vim/nvim_startup.sh into ~/
-	- Startup Application -> + button -> Choose command -> Name: Nvim startup and Command: browse, then select nvim_startup.sh
+- Startup Applications
+	- Chromium Web Browser
+		- Add(+ button) -> Application -> Chromium Web Browser
+	- Music shuffle
+		- Copy and paste music_shuffle.sh into ~/
+		- Add(+ button) -> Choose command -> Name: Music and Command: browse, then select music_shuffle.sh
+	- Lazy Vim
+		- Copy and paste ./Lazy_Vim/nvim_startup.sh into ~/
+		- Add(+ button) -> Choose command -> Name: Nvim startup and Command: browse, then select nvim_startup.sh
 - Windows -> Alt-Tab
   - Check Display the alt-tab switcher on the primary monitor instead of the active one
   - Delay before displaying the alt-tab switcher(milliseconds) set to 0
@@ -76,6 +81,7 @@
 - Gpick
 - OBS Studio
 - Node ubuntu version: https://github.com/nodesource/distributions/blob/master/README.md
+- Chromium Web Browser
 
 ### Neovim
 - Install
@@ -88,12 +94,12 @@
 #### LazyVim
 - rm -rf ~/.config/nvim
 - git clone https://github.com/LazyVim/starter ~/.config/nvim
-- mv ./BlexMono /usr/share/fonts/truetype/
+- Move BlexMono folder into /usr/share/fonts/truetype/
 - sudo fc-cache -f -v
 - In Terminal -> Edit -> Preferences -> Check Custom font: -> BlexMono Nerd Font Mono 11
 - sudo apt install fzf ripgrep fd-find
 - Go to https://github.com/jesseduffield/lazygit?tab=readme-ov-file#ubuntu and run commands
-- cp -r ./Lazy_Vim/plugins/* ~/.config/nvim/lua/plugins/
+- Move and replace Lazy_Vim/lua into ~/.config/nvim/
 
 ### Terminal
 - Edit -> Preferences
@@ -108,44 +114,25 @@
   - Remove the `\u@\h :` from all 3 places where the variable is set.
     - Ex: `PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '` -> `PS1='${debian_chroot:+($debian_chroot)}\[\033[01;34m\]\w\[\033[00m\]\$ '`
 
-### Brave
-- Install from the terminal and instructions on the website: https://brave.com/linux/
-
-#### Settings
-- Get started
-	- Blank page: New tab page shows
-	- Make default browser
-- Appearance
-	- Dark: Brave colors
-	- Theme: Click Use GTK
-	- Uncheck: Show home button
-	- Uncheck: Show Brave Wallet button
-	- Uncheck: Show Sidebar button
-	- 80%: Page zoom
-- Brave Rewards icon in top right -> right click -> Hide
-- Search engine
-	- DuckDuckGo: Normal Window - Search engine used in the address bar
-	- DuckDuckGo: Private Window - Search engine used in the address bar
-	- Check: Improve search suggestions
-- Autofill and passwords
-	- Password Manager -> Top left hamburger menu -> Settings -> Uncheck: Offer to save passwords
-	- Payment methods -> Uncheck: Save and fill payment methods
-- System
-	- Check: memory saver
-- Hamburger menu top right -> More tools -> Show Sidebar -> Never
-
-#### Extensions
-- Google Docs Offline
-- Google Translate
-- Markdown Viewer
-	- Manage Extension -> Allow access to file URLs
-- Video Speed Controller - video manager
-	- Options -> Preferred speed: 2.6, Check Remember playback speed, and Force last saved speed -> save
-	- Mange Extension -> Check Allow in Private
-- Pokemon
-	- Chrome Notes
-	- Pokemon Showdown Type Helper
-	- Showdex
+### Chromium Web Browser
+- Extensions
+	- Google Docs Offline
+	- Markdown Viewer
+		- Manage Extension -> Allow access to file URLs
+	- Video Speed Controller
+		- Options -> Preferred speed: 2.6, Check Remember playback speed
+- Settings
+	- Performance
+		- Check memory saver -> Balanced
+		- Check preload pages -> Standard preloading
+	- Appearance
+		- Uncheck Show home button
+		- Uncheck Show bookmarks bar
+		- Uncheck Tab hover preview card
+		- Uncheck Use system title bar and borders
+		- Page zoom 80%
+	- Search Engine -> Change -> DuckDuckGo
+	- On startup -> Continue where you left off
 
 ## Sign Into
 - Discord
@@ -161,10 +148,39 @@
 	- https://mail.google.com/
 	- https://github.com/ryansheehy0
 - Window 2
-	- https://chat.openai.com/
+	- https://chatgpt.com/
 	- https://nulltodos.com/
 	- https://docs.google.com/spreadsheets/
-	- Big Red Button
+	- Big Red Button local Ip address
 - Window 3
 	- https://rscheatsheets.com/
 	- https://www.youtube.com/
+
+## Phone
+### Applications
+- Bottom row
+	- Google maps
+	- DuckDuckGo
+	- Text messages
+	- Youtube
+- 1st row
+	- Venmo
+	- Discord
+	- Phone
+	- ChatGPT
+- 2nd row
+	- Clock
+	- Gmail
+	- Calculator
+	- Note taking app
+- 3rd row
+	- Canvas
+	- Private note taking app
+	- Droid Dashcam
+	- Camera
+- Other
+	- Uber
+	- Desmos
+	- Offline Games - No Wifi Games
+
+### Settings

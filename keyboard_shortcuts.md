@@ -44,8 +44,9 @@ Lazy Vim is a distribution for Neovim.
 ### Problems
 - Markdown
 	- Follow markdown link without searching for it
+	- Remove the No Fences Found! Warning
 - Folding
-	- Fold by indentation in markdown
+	- Have folding work more like in vs code.
 	- Save the folding of a file
 - Get word/char count of selected text?
 
