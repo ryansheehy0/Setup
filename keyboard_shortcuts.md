@@ -1,62 +1,37 @@
 # Keyboard Shortcuts
 
-<!-- mtoc-start -->
+<!-- TOC -->
 
-* [Lazy Vim](#lazy-vim)
-  * [Calculator](#calculator)
-  * [Problems](#problems)
-* [Linux Mint](#linux-mint)
+- [Vs Code](#vs-code)
+- [Linux Mint](#linux-mint)
 
-<!-- mtoc-end -->
+<!-- /TOC -->
 
-## Lazy Vim
-Lazy Vim is a distribution for Neovim.
+## Vs Code
 
-| Keys                   | Description                                  |
-| -                      | -                                            |
-| ctrl + /               | Open/Close terminal                          |
-| z=                     | Show spell checker                           |
-| space + e              | Toggle explorer                              |
-| za                     | Toggle fold                                  |
-| ctrl + h               | Move to left window                          |
-| ctrl + l               | Move to right window                         |
-| shift + h              | Move to left tab                             |
-| shift + l              | Move to right tab                            |
-| space bd               | Delete cur buffer                            |
-| space \|               | Slit window right                            |
-| space ff               | Open fuzzy finder                            |
-| select gc              | Comment block of code                        |
-| :Mtoc                  | Insert table of contents for markdown files  |
-| select :Table          | Format a markdown table                      |
-| select :Tabularize /_  | Align things based on the _ char             |
+| Keys                                          | Description                                     |
+|-----------------------------------------------|-------------------------------------------------|
+| left ctrl + shift, h/l                        | Move back and forth between explorer and window |
+| left ctrl + h/l                               | Move left or right between windows              |
+| left ctrl + b                                 | Toggle explorer                                 |
+| Select table, =                               | Format markdown table                           |
+| left ctrl + .                                 | Code actions                                    |
+| left ctrl + space                             | Code suggestions                                |
+| left ctrl + w                                 | Close window                                    |
+| ctrl + shift + [                              | Fold                                            |
+| Select lines, left ctrl + /                   | Comment block of code                           |
+| Select math, left ctrl + shift + p, Calculate | Calculate selected text                         |
+| left ctrl + `                                 | Toggle terminal                                 |
 
-
-### Calculator
-- Replace text with the calculation
-	- Select text you want to calculate
-	- :'<,'>Calculator
-- Paste the calculation
-	- Select text you want to calculate
-	- Past with vp
-		- Add an extra space
-	- :Calculator
-
-### Problems
-- Markdown
-	- Follow markdown link without searching for it
-	- Remove the No Fences Found! Warning
-- Folding
-	- Have folding work more like in vs code.
-	- Save the folding of a file
-- Get word/char count of selected text?
+- TOC and /TOC in html comments for table of contents in markdown
 
 ## Linux Mint
 - Use alt-tab to navigate between windows that are on top of each other.
 - Use mouse to navigate between windows that are visible.
 
-| Keys               | Description               |
-|-                   | -                         |
-| alt + tab          | Move to next open window  |
-| alt + shift + tab  | Move to prev open window  |
-| caps lock          | Open menu                 |
-
+| Keys              | Description              |
+|-------------------|--------------------------|
+| alt + tab         | Move to next open window |
+| alt + shift + tab | Move to prev open window |
+| caps lock         | Open menu                |
+| alt + f4          | Close current window     |

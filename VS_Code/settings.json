@@ -1,5 +1,4 @@
 {
-    "//": "Icon Themes",
     "//": "Tabs",
       "editor.tabSize": 2,
       "editor.insertSpaces": false,
@@ -13,13 +12,10 @@
       "security.workspace.trust.startupPrompt": "never",
       "security.workspace.trust.banner": "never",
       "security.workspace.trust.untrustedFiles": "open",
-    "//": "Open files in new tabs",
     "//": "Default terminal shell",
       "terminal.integrated.defaultProfile.linux": "bash",
     "//": "Remove minimap",
       "editor.minimap.enabled": false,
-    "//": "Tab key presses handled by the terminal instead of the system:",
-      "terminal.integrated.tabFocusMode": false,
     "//": "Remove indentation guides",
       "editor.guides.indentation": false,
     "//": "Remove bracket pair hightlighting",
@@ -39,22 +35,6 @@
       "svg.preview.mode": "svg",
       "window.newWindowDimensions": "maximized",
       "markdown-toc.orderedList": false,
-      "amVim.bindCtrlCommands": false,
-      "tailwind-fold.supportedLanguages": [
-        "handlebars",
-        "html",
-        "typescriptreact",
-        "javascriptreact",
-        "typescript",
-        "javascript",
-        "vue-html",
-        "vue",
-        "php",
-        "markdown",
-        "coffeescript",
-        "svelte",
-        "astro"
-      ],
       "diffEditor.ignoreTrimWhitespace": false,
       "editor.stickyScroll.enabled": false,
       "extensions.experimental.affinity": {
@@ -99,5 +79,11 @@
         "delete",
         "w"
       ],
-      "database-client.autoSync": true,
+      "workbench.colorTheme": "Default Dark+",
+      "workbench.colorCustomizations": {
+        "editor.background": "#000000",
+        "sideBar.background": "#000000",
+        "terminal.background": "#000000",
+        "activityBar.background": "#000000"
+      }
   }

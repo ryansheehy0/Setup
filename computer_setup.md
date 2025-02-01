@@ -1,24 +1,24 @@
 # Steps for setting up a new computer
 
-<!-- mtoc-start -->
+<!-- TOC -->
 
-* [Linux Mint](#linux-mint)
-  * [System Settings](#system-settings)
-  * [Monitor Settings](#monitor-settings)
-  * [Panel Settings](#panel-settings)
-  * [Miscellaneous](#miscellaneous)
-* [Applications](#applications)
-  * [Neovim](#neovim)
-    * [LazyVim](#lazyvim)
-  * [Terminal](#terminal)
-  * [Chromium Web Browser](#chromium-web-browser)
-* [Sign Into](#sign-into)
-* [Windows](#windows)
-* [Phone](#phone)
-  * [Applications](#applications-1)
-  * [Settings](#settings)
+- [Linux Mint](#linux-mint)
+	- [System Settings](#system-settings)
+	- [Monitor Settings](#monitor-settings)
+	- [Panel Settings](#panel-settings)
+	- [Miscellaneous](#miscellaneous)
+- [Applications](#applications)
+	- [Neovim](#neovim)
+	- [Terminal](#terminal)
+	- [VS Code](#vs-code)
+	- [Chromium Web Browser](#chromium-web-browser)
+- [Sign Into](#sign-into)
+- [Windows](#windows)
+- [Phone](#phone)
+	- [Applications](#applications)
+	- [Settings](#settings)
 
-<!-- mtoc-end -->
+<!-- /TOC -->
 
 ## Linux Mint
 
@@ -36,9 +36,7 @@
 	- Music shuffle
 		- Copy and paste music_shuffle.sh into ~/
 		- Add(+ button) -> Choose command -> Name: Music and Command: browse, then select music_shuffle.sh
-	- Lazy Vim
-		- Copy and paste ./Lazy_Vim/nvim_startup.sh into ~/
-		- Add(+ button) -> Choose command -> Name: Nvim startup and Command: browse, then select nvim_startup.sh
+	- Visual Studio Code
 - Windows -> Alt-Tab
   - Check Display the alt-tab switcher on the primary monitor instead of the active one
   - Delay before displaying the alt-tab switcher(milliseconds) set to 0
@@ -91,16 +89,6 @@
 - Sets up clipboard with "+" registry in neovim
 	- sudo apt-get install xclip
 
-#### LazyVim
-- rm -rf ~/.config/nvim
-- git clone https://github.com/LazyVim/starter ~/.config/nvim
-- Move BlexMono folder into /usr/share/fonts/truetype/
-- sudo fc-cache -f -v
-- In Terminal -> Edit -> Preferences -> Check Custom font: -> BlexMono Nerd Font Mono 11
-- sudo apt install fzf ripgrep fd-find
-- Go to https://github.com/jesseduffield/lazygit?tab=readme-ov-file#ubuntu and run commands
-- Move and replace Lazy_Vim/lua into ~/.config/nvim/
-
 ### Terminal
 - Edit -> Preferences
 	- Set to fullscreen when clicked. Initial terminal size to max size. Max columns and rows
@@ -113,6 +101,15 @@
   - Search for PS1. There should be 3 places where the variable is set.
   - Remove the `\u@\h :` from all 3 places where the variable is set.
     - Ex: `PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '` -> `PS1='${debian_chroot:+($debian_chroot)}\[\033[01;34m\]\w\[\033[00m\]\$ '`
+
+### VS Code
+- Download from website: https://code.visualstudio.com/
+- settings.json
+- keybindings.json
+- Run node installExtentions.js
+- Uncheck Vscode-neovim: Neovim Clean
+- Put in ~/.config/nvim/init.vim
+	- au BufEnter * set fo-=c fo-=r fo-=o
 
 ### Chromium Web Browser
 - Extensions
@@ -133,6 +130,9 @@
 		- Page zoom 80%
 	- Search Engine -> Change -> DuckDuckGo
 	- On startup -> Continue where you left off
+	- Downloads -> Check Ask where to save each file before downloading
+- Go to chrome://flags
+	- Enable GPU rasterization
 
 ## Sign Into
 - Discord
@@ -149,6 +149,7 @@
 	- https://github.com/ryansheehy0
 - Window 2
 	- https://chatgpt.com/
+	- https://chat.deepseek.com/
 	- https://nulltodos.com/
 	- https://docs.google.com/spreadsheets/
 	- Big Red Button local Ip address

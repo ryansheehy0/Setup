@@ -1,11 +1,4 @@
-// Place your key bindings in this file to override the defaults
 [
-  "//": "ctrl + shift + ` to open terminal",
-  "//": "ctrl + 1 , ctrl + 2, ctrl + 3, etc to move focus between slip windows",
-  "//": "ctrl + . open code actions menu",
-  "//": "ctrl + space open code suggestions",
-  "//": "select text + = formats the selected text",
-  "//": "ctrl + / wraps comments around that line",
   {
     "key": "ctrl+h",
     "command": "workbench.action.previousEditorInGroup",
@@ -30,12 +23,6 @@
     "key": "ctrl+b",
     "command": "workbench.action.toggleSidebarVisibility"
   },
-  "//": "Quick Fix Menu",
-    {
-      "key": "tab",
-      "command": "acceptSelectedCodeAction",
-      "when": "codeActionMenuVisible"
-    },
   "//": "Explorer shortcuts",
     {
       "key": "a",
@@ -72,7 +59,6 @@
       "command": "deleteFile",
       "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
     },
-    "//": "ctrl + shift + [ to fold",
     "//": "Allows cursor to move over folds",
       {
           "key": "j",
