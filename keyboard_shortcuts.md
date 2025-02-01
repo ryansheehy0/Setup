@@ -24,6 +24,7 @@
 | left ctrl + `                                 | Toggle terminal                                 |
 
 - TOC and /TOC in html comments for table of contents in markdown
+- `code -r ./` loads vs code from the current directory
 
 ## Linux Mint
 - Use alt-tab to navigate between windows that are on top of each other.
