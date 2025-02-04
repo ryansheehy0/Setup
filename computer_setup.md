@@ -108,8 +108,7 @@
 - keybindings.json
 - Run node installExtentions.js
 - Uncheck Vscode-neovim: Neovim Clean
-- Put in ~/.config/nvim/init.vim
-	- au BufEnter * set fo-=c fo-=r fo-=o
+- Copy and paste init.vim into ~/.config/nvim/
 
 ### Chromium Web Browser
 - Extensions
