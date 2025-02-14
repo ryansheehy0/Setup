@@ -112,6 +112,8 @@
 
 ### Chromium Web Browser
 - Extensions
+	- Binary Tab
+		- Uncheck Show number to the right, Show Nothing below clock, Size: Large, Dark colour: Black, Light colour: White, Inversion On
 	- Google Docs Offline
 	- Markdown Viewer
 		- Manage Extension -> Allow access to file URLs

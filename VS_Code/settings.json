@@ -85,5 +85,6 @@
         "sideBar.background": "#000000",
         "terminal.background": "#000000",
         "activityBar.background": "#000000"
-      }
+      },
+      "window.title": "${rootName}"
   }
