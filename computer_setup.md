@@ -36,6 +36,9 @@
 	- Music shuffle
 		- Copy and paste music_shuffle.sh into ~/
 		- Add(+ button) -> Choose command -> Name: Music and Command: browse, then select music_shuffle.sh
+	- Text book
+		- Copy and paste text_book.sh into ~/
+		- Add(+ button) -> Choose command -> Name: Text Book and Command: browse, then select text_book.sh
 	- Visual Studio Code
 - Windows -> Alt-Tab
   - Check Display the alt-tab switcher on the primary monitor instead of the active one
