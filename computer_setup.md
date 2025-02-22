@@ -115,11 +115,7 @@
 
 ### Chromium Web Browser
 - Extensions
-	- Binary Tab
-		- Uncheck Show number to the right, Show Nothing below clock, Size: Large, Dark colour: Black, Light colour: White, Inversion On
 	- Google Docs Offline
-	- Markdown Viewer
-		- Manage Extension -> Allow access to file URLs
 	- Video Speed Controller
 		- Options -> Preferred speed: 2.6, Check Remember playback speed
 - Settings
@@ -137,6 +133,7 @@
 	- Downloads -> Check Ask where to save each file before downloading
 - Go to chrome://flags
 	- Enable GPU rasterization
+	- Disable Organic repeatable queries in Most Visited tiles
 
 ## Sign Into
 - Discord
