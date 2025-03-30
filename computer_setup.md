@@ -24,7 +24,7 @@
 
 ### System Settings
 - Mouse and Touchpad -> Touchpad -> Uncheck Reverse scrolling direction
-- Date & Time -> Uncheck Use 24h clock and Check Display the date
+- Date & Time -> Uncheck Use 24h clock, check Display the date, and First day of week Monday.
 - Themes -> Mouse Pointer: Adwaita, Applications: Mint-Y-Dark-Blue, Icons: Mint-Y-Sand, Desktop: Mint-Y-Dark-Blue
 - Desktop -> Uncheck Everything under Desktop Icons
 - Effects -> Uncheck Desktop and window effects
