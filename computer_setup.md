@@ -115,6 +115,7 @@
 
 ### Chromium Web Browser
 - Extensions
+	- Downloads Overwrite Already Existing Files
 	- Google Docs Offline
 	- Video Speed Controller
 		- Options -> Preferred speed: 2.6, Check Remember playback speed
@@ -131,6 +132,7 @@
 	- Search Engine -> Change -> DuckDuckGo
 	- On startup -> Continue where you left off
 	- Downloads -> Check Ask where to save each file before downloading
+	- Languages -> Check for spelling errors when you type text on web pages
 - Go to chrome://flags
 	- Enable GPU rasterization
 	- Disable Organic repeatable queries in Most Visited tiles
