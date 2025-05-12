@@ -119,6 +119,9 @@
 	- Google Docs Offline
 	- Video Speed Controller
 		- Options -> Preferred speed: 2.6, Check Remember playback speed
+	- Pokemon
+		- Showdex
+		- Pokemon Showdown Type Helper
 - Settings
 	- Performance
 		- Check memory saver -> Balanced
@@ -149,13 +152,9 @@
 ## Windows
 - Window 1
 	- https://mail.google.com/
-	- https://github.com/ryansheehy0
 - Window 2
 	- https://chatgpt.com/
-	- https://chat.deepseek.com/
-	- https://nulltodos.com/
-	- https://docs.google.com/spreadsheets/
-	- Big Red Button local Ip address
+	- https://nestedtodos.com/
 - Window 3
 	- https://rscheatsheets.com/
 	- https://www.youtube.com/
