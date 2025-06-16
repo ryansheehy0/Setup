@@ -117,6 +117,12 @@
 - Extensions
 	- Downloads Overwrite Already Existing Files
 	- Google Docs Offline
+	- Remove YouTube Shorts
+	- Text Blaze: Templates and Snippets
+		- /ic - Is this correct? Clipboard.
+		- /dw - Why didn't this work? Clipboard.
+		- /wb - Word this better. Base your changes off of my original wording. Keep in bullet point format. Clipboard.
+		- /fg - Just fix the spelling and grammar. Don't change the wording at all. Clipboard.
 	- Video Speed Controller
 		- Options -> Preferred speed: 2.6, Check Remember playback speed
 	- Pokemon
