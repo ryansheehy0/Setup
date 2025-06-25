@@ -33,12 +33,6 @@
 - Startup Applications
 	- Chromium Web Browser
 		- Add(+ button) -> Application -> Chromium Web Browser
-	- Music shuffle
-		- Copy and paste music_shuffle.sh into ~/
-		- Add(+ button) -> Choose command -> Name: Music and Command: browse, then select music_shuffle.sh
-	- Text book
-		- Copy and paste text_book.sh into ~/
-		- Add(+ button) -> Choose command -> Name: Text Book and Command: browse, then select text_book.sh
 	- Visual Studio Code
 - Windows -> Alt-Tab
   - Check Display the alt-tab switcher on the primary monitor instead of the active one
@@ -115,11 +109,12 @@
 
 ### Chromium Web Browser
 - Extensions
+	- Black new Tab FOCUS
 	- Downloads Overwrite Already Existing Files
 	- Google Docs Offline
 	- Remove YouTube Shorts
 	- Text Blaze: Templates and Snippets
-		- /ic - Is this correct? Clipboard.
+		- /ic - Is this true/correct? Clipboard.
 		- /dw - Why didn't this work? Clipboard.
 		- /wb - Word this better. Base your changes off of my original wording. Keep in bullet point format. Clipboard.
 		- /fg - Just fix the spelling and grammar. Don't change the wording at all. Clipboard.
@@ -144,7 +139,6 @@
 	- Languages -> Check for spelling errors when you type text on web pages
 - Go to chrome://flags
 	- Enable GPU rasterization
-	- Disable Organic repeatable queries in Most Visited tiles
 
 ## Sign Into
 - Discord
