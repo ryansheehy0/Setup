@@ -116,7 +116,7 @@
 	- Text Blaze: Templates and Snippets
 		- /ic - Is this true/correct? Clipboard.
 		- /dw - Why didn't this work? Clipboard.
-		- /wb - Word this better. Base your changes off of my original wording. Keep in bullet point format. Clipboard.
+		- /wb - Word this better. Base your changes off of my original wording. Keep in bullet point format. Put bullet points in markdown code and use -s. Remove the spaces at the end of each line. Clipboard.
 		- /fg - Just fix the spelling and grammar. Don't change the wording at all. Clipboard.
 	- Video Speed Controller
 		- Options -> Preferred speed: 2.6, Check Remember playback speed
