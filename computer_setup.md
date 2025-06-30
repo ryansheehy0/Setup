@@ -76,12 +76,13 @@
 - sudo apt install make
 - sudo apt install ncdu
 - Gnome-system-monitor
-- Discord
-- Zoom
 - Gpick
-- OBS Studio
 - Node ubuntu version: https://github.com/nodesource/distributions/blob/master/README.md
 - Chromium Web Browser
+- Other less important
+	- OBS Studio
+	- Balena Etcher
+	- Zoom
 
 ### Neovim
 - Install
@@ -149,7 +150,6 @@
 - Discord
 - Gmail/Youtube
 	- ChatGPT
-	- Trello
 - Github
 - Setup ssh for git
 - Amazon
@@ -160,6 +160,7 @@
 - Window 2
 	- https://chatgpt.com/
 	- https://nestedtodos.com/
+	- https://discord.com/
 - Window 3
 	- https://rscheatsheets.com/
 	- https://www.youtube.com/
