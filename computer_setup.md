@@ -2,21 +2,22 @@
 
 <!-- TOC -->
 
-- [Linux Mint](#linux-mint)
-	- [System Settings](#system-settings)
-	- [Monitor Settings](#monitor-settings)
-	- [Panel Settings](#panel-settings)
-	- [Miscellaneous](#miscellaneous)
-- [Applications](#applications)
-	- [Neovim](#neovim)
-	- [Terminal](#terminal)
-	- [VS Code](#vs-code)
-	- [Chromium Web Browser](#chromium-web-browser)
-- [Sign Into](#sign-into)
-- [Windows](#windows)
-- [Phone](#phone)
+- [Steps for setting up a new computer](#steps-for-setting-up-a-new-computer)
+	- [Linux Mint](#linux-mint)
+		- [System Settings](#system-settings)
+		- [Monitor Settings](#monitor-settings)
+		- [Panel Settings](#panel-settings)
+		- [Miscellaneous](#miscellaneous)
 	- [Applications](#applications)
-	- [Settings](#settings)
+		- [Neovim](#neovim)
+		- [Terminal](#terminal)
+		- [VS Code](#vs-code)
+		- [Chromium Web Browser](#chromium-web-browser)
+	- [Sign Into](#sign-into)
+	- [Windows](#windows)
+	- [Phone](#phone)
+		- [Applications](#applications-1)
+		- [Settings](#settings)
 
 <!-- /TOC -->
 
@@ -34,6 +35,7 @@
 	- Chromium Web Browser
 		- Add(+ button) -> Application -> Chromium Web Browser
 	- Visual Studio Code
+	- Files(Used for unlocking encrypted USB drive).
 - Windows -> Alt-Tab
   - Check Display the alt-tab switcher on the primary monitor instead of the active one
   - Delay before displaying the alt-tab switcher(milliseconds) set to 0
@@ -154,7 +156,11 @@
 - Window 1
 	- https://mail.google.com/
 - Window 2
-	- https://chatgpt.com/
+	- LLMs
+		- https://chatgpt.com/
+		- https://gemini.google.com/
+		- https://grok.com/
+		- Other.
 	- https://nestedtodos.com/
 	- https://discord.com/
 - Window 3
