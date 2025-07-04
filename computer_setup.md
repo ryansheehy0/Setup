@@ -149,6 +149,7 @@
 - Github
 - Setup ssh for git
 - Amazon
+- Encrypted USB remember forever
 
 ## Windows
 - Window 1
