@@ -114,6 +114,8 @@
 	- Black new Tab FOCUS
 	- Downloads Overwrite Already Existing Files
 	- Google Docs Offline
+	- Markdown Viewer
+		- Manage Extension -> Allow access to file URLs
 	- Remove YouTube Shorts
 	- Text Blaze: Templates and Snippets
 		- /ic - Is this true/correct? Clipboard.
