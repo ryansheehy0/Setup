@@ -57,7 +57,7 @@
 - Right click on icons -> unpin from panel
 - Do for each panel: Right click on panel -> Applets -> Click Grouped window list -> Click the + button -> Click setting button to the right -> Uncheck Group windows by application
 - Do for each panel: Right click on panel -> Applets -> Click Calendar -> Click the + button
-- On main panel: Right click on panel -> Applets -> Download -> CPU Temperature Indicator and Timer with Notifications -> Manage -> Click the + button for both.
+- On main panel: Right click on panel -> Applets -> Download -> CPU Temperature Indicator -> Manage -> Click the + button for both.
 
 ### Miscellaneous
 - Set background to black.png
