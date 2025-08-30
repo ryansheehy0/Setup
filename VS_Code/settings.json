@@ -4,8 +4,6 @@
       "editor.insertSpaces": false,
     "//": "Remove highlighting of occurrences of currently selected word",
       "editor.occurrencesHighlight": "off",
-    "//": "Enables word wrapping",
-      "editor.wordWrap": "on",
     "//": "No editor/welcome file on startup.",
       "workbench.startupEditor": "none",
     "//": "Removes startup prompt related to workspace trust.",
@@ -20,8 +18,6 @@
       "editor.guides.indentation": false,
     "//": "Remove bracket pair hightlighting",
       "editor.guides.bracketPairsHorizontal": false,
-    "//": "Allow folding in vim",
-      "vim.foldfix": true,
     "//": "Setting up priter",
       "editor.defaultFormatter": "esbenp.prettier-vscode",
       "[javascript]": {
@@ -31,10 +27,8 @@
         "editor.defaultFormatter": "darkriszty.markdown-table-prettify"
       },
       "window.restoreFullscreen": true,
-      "workbench.editor.enablePreview": false,
       "svg.preview.mode": "svg",
       "window.newWindowDimensions": "maximized",
-      "markdown-toc.orderedList": false,
       "diffEditor.ignoreTrimWhitespace": false,
       "editor.stickyScroll.enabled": false,
       "extensions.experimental.affinity": {
@@ -44,7 +38,6 @@
         80
       ],
       "markdown-toc.depthFrom": 2,
-      "cmake.showOptionsMovedNotification": false,
       "C_Cpp.configurationWarnings": "disabled",
       "makefile.configureOnOpen": true,
       "workbench.iconTheme": "material-icon-theme",
@@ -86,5 +79,11 @@
         "terminal.background": "#000000",
         "activityBar.background": "#000000"
       },
-      "window.title": "${rootName}"
+      "window.title": "${rootName}",
+      "chat.commandCenter.enabled": false,
+      "editor.wordWrap": "on",
+      "markdown-toc.orderedList": false,
+      "markdown.preview.scrollEditorWithPreview": false,
+      "markdown.preview.scrollPreviewWithEditor": false,
+      "cmake.ignoreCMakeListsMissing": true
   }
