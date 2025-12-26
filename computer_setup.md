@@ -12,6 +12,8 @@
 	- [Terminal](#terminal)
 	- [VS Code](#vs-code)
 	- [Chromium Web Browser](#chromium-web-browser)
+- [LLM Instructions](#llm-instructions)
+- [Framework laptop micro-phone not working](#framework-laptop-micro-phone-not-working)
 - [Sign Into](#sign-into)
 - [Windows](#windows)
 - [Phone](#phone)
@@ -75,6 +77,7 @@
 - Gpick
 - Node ubuntu version: https://github.com/nodesource/distributions/blob/master/README.md
 - Chromium Web Browser
+	- Restart chrome: `chrome://restart`
 - Other less important
 	- OBS Studio
 	- Balena Etcher
@@ -119,9 +122,8 @@
 	- Remove YouTube Shorts
 	- Text Blaze: Templates and Snippets
 		- /ic - Is this true/correct? Clipboard.
-		- /dw - Why didn't this work? Clipboard.
 		- /wb - Word this better. Base your changes off of my original wording. Keep in bullet point format. Clipboard.
-		- /fg - Just fix the spelling and grammar. Don't change the wording at all. Clipboard.
+		- /fg - Just fix the spelling and grammar. Don't change the wording at all. Don't include semi-colons. If the grammar is already correct return "Already correct." and nothing else. If it's not correct, give a list of the things you would change. Clipboard.
 	- Video Speed Controller
 		- Options -> Preferred speed: 2.6, Check Remember playback speed
 	- Pokemon
@@ -144,6 +146,20 @@
 - Go to chrome://flags
 	- Enable GPU rasterization
 
+## LLM Instructions
+Please respond concisely.
+Only give 1 short paragraph responses (3 sentences at most).
+If I want more information I will ask for more, so do not give too much.
+When I ask you for a list of things, give them to me in bullet point format with 1 very short sentence describing them.
+Only do this if you think a list of things would be appropriate, otherwise just give a short response.
+Do not include dashes(--s) or semi-colons(;s) in your responses.
+
+## Framework laptop micro-phone not working
+
+1. Run: `pactl list cards | grep -A20 "Card #"`
+2. Look for HDA Intel PCH
+3. Run: `pactl set-card-profile 0 output:analog-stereo+input:analog-stereo`
+
 ## Sign Into
 - Discord
 - Gmail/Youtube
@@ -156,16 +172,16 @@
 ## Windows
 - Window 1
 	- https://mail.google.com/
+	- https://github.com/ryansheehy0
 - Window 2
-	- LLMs
-		- https://chatgpt.com/
-		- https://gemini.google.com/
-		- https://grok.com/
-		- Other.
+	- https://chatgpt.com/
+	- https://gemini.google.com/
 	- https://nestedtodos.com/
 	- https://discord.com/
 - Window 3
 	- https://rscheatsheets.com/
+	- https://www.youtube.com/
+- Window 4
 	- https://www.youtube.com/
 
 ## Phone
