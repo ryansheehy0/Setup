@@ -117,16 +117,16 @@
 - Extensions
 	- Black new Tab FOCUS
 	- Downloads Overwrite Already Existing Files
+	- Equation Editor
 	- Google Docs Offline
 	- Markdown Viewer
 		- Manage Extension -> Allow access to file URLs
 	- Remove YouTube Shorts
+	- Speed Master for YouTube Video
 	- Text Blaze: Templates and Snippets
 		- /ic - Is this true/correct? Clipboard.
 		- /wb - Word this better. Base your changes off of my original wording. Keep in bullet point format. Clipboard.
 		- /fg - Just fix the spelling and grammar. Don't change the wording at all. Don't include semi-colons. If the grammar is already correct return "Already correct." and nothing else. If it's not correct, give a list of the things you would change. Clipboard.
-	- Video Speed Controller
-		- Options -> Preferred speed: 2.6, Check Remember playback speed
 	- Pokemon
 		- Showdex
 		- Pokemon Showdown Type Helper
