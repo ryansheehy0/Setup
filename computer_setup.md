@@ -32,6 +32,7 @@
 - Effects -> Uncheck Desktop and window effects
 - Screensaver -> Customize -> Uncheck Show album art
 - Keyboard -> Layouts -> Options -> Caps Lock behavior -> Make Caps Lock an additional Super
+- Keyboard -> Shortcuts -> Switch monitor configuration -> Click on Super+P and press delete -> unassigned
 - Startup Applications
 	- Chromium Web Browser
 		- Add(+ button) -> Application -> Chromium Web Browser
