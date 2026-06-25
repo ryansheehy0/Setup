@@ -1,0 +1,48 @@
+#!/bin/bash
+
+# A bash script which backs up a USBs into a folder called `Backup` in the home directory(`~`) and allows you to backup into other USBs.
+# Don't run as root becase it changes you $HOME directory.
+
+# Get usbPath
+	read -ep "Enter the file path to the USB you want to backup: " usbPath # Tab completion(-e) and string output(-p)
+	if [ ! -d "$usbPath" ]; then # Check if the file path is a directory(-d)
+			echo "  Error: The provided path is not a directory."
+			exit 1
+	fi
+
+# Create an empty ~/Backup folder
+	# Remove a Backup folder if it exists
+		isBackupFolder=$(find ~ -maxdepth 1 -type d -name 'Backup') # Is there a backup folder in ~/
+		if [ ! -z "isBackupFolder" ]; then # If the isBackupFolder string not empty(-z)
+			gio trash ~/Backup/ # Send current Backup folder to the trash
+		fi
+	# Create ~/Backup
+		mkdir ~/Backup &&
+
+# Recursively(-r) copy the contents in usb path to ~/Backup
+	cp -r "${usbPath}"/* ~/Backup/ &&
+	echo "  Backup completed successfully to ~/Backup"
+	echo
+
+while true; do
+	# Check if the user wants another backup usb
+		read -ep "Do you want to erase another USB and make it a backup of your original USB? (y/n): " wantsBackupUSB
+		if [[ "$wantsBackupUSB" != 'Y' && "$wantsBackupUSB" != 'y' ]]; then # If it's not y or Y, then exit
+			exit 0
+		fi
+
+	# Get backupUSBPath
+		read -ep "Enter the file path to this new USB: " backupUSBPath
+		if [ ! -d "$backupUSBPath" ]; then # Check if the file path is a directory(-d)
+				echo "  Error: The provided path is not a directory."
+				continue
+		fi
+
+	# Remove the contents of the backup usb
+		gio trash "$backupUSBPath"/* &&
+
+	# Recursively(-r) copy the contents in ~/Backup to the backup usb
+		cp -r ~/Backup/* "$backupUSBPath"/ &&
+		echo "  Backup completed successfully to ${backupUSBPath}"
+		echo
+done
