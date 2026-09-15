@@ -12,7 +12,6 @@
 	- [Terminal](#terminal)
 	- [VS Code](#vs-code)
 	- [Chromium Web Browser](#chromium-web-browser)
-- [LLM Instructions](#llm-instructions)
 - [Framework laptop micro-phone not working](#framework-laptop-micro-phone-not-working)
 - [Sign Into](#sign-into)
 - [Windows](#windows)
@@ -125,9 +124,8 @@
 	- Remove YouTube Shorts
 	- Speed Master for YouTube Video
 	- Text Blaze: Templates and Snippets
-		- /ic - Is this true/correct? Clipboard.
-		- /wb - Word this better. Base your changes off of my original wording. Keep in bullet point format. Clipboard.
-		- /fg - Just fix the spelling and grammar. Don't change the wording at all. Don't include semi-colons. If the grammar is already correct return "Already correct." and nothing else. If it's not correct, give a list of the things you would change. Clipboard.
+		- /wb - Word better. See ai prompts
+		- /fg - Fix grammar. See ai prompts
 	- Pokemon
 		- Showdex
 		- Pokemon Showdown Type Helper
@@ -147,14 +145,6 @@
 	- Languages -> Check for spelling errors when you type text on web pages
 - Go to chrome://flags
 	- Enable GPU rasterization
-
-## LLM Instructions
-Please respond concisely.
-Only give 1 short paragraph responses (3 sentences at most).
-If I want more information I will ask for more, so do not give too much.
-When I ask you for a list of things, give them to me in bullet point format with 1 very short sentence describing them.
-Only do this if you think a list of things would be appropriate, otherwise just give a short response.
-Do not include dashes(--s) or semi-colons(;s) in your responses.
 
 ## Framework laptop micro-phone not working
 
