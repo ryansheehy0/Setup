@@ -1,17 +1,8 @@
 # Setup
-- `ollama run qwen3:8b`
-- `systemctl stop ollama`
-- `sudo systemctl edit ollama.service`
-- Past into correct spot after the first two comments
-
-```
-[Service]
-Environment="OLLAMA_ORIGINS=https://eliaspereirah.github.io"
-```
-
-- `sudo systemctl daemon-reload`
-- `sudo systemctl start ollama`
-- Go to [Orion Chat](https://eliaspereirah.github.io) and select model
+- `curl -LsSf https://llama.app/install.sh | sh`
+- Find gguf model from huggingface.co
+	- `llama serve -hf ggml-org/Qwen3-1.7B-GGUF:Q4_K_M`
+- Go to `127.0.0.1:8080`
 
 ## LLM Instructions
 Please respond concisely.
@@ -22,7 +13,7 @@ Only do this if you think a list of things would be appropriate, otherwise just 
 Do not include dashes(--s) or semi-colons(;s) in your responses.
 
 ## Word better
-Rewrite the text to sound better while staying close to my original wording. Keep in bullet point format. Only output the rewritten text and nothing else.
+Rewrite the text to sound better while staying close to my original wording. Keep in bullet point format with *s as bullet points. Only output the rewritten text and nothing else.
 
 Clipboard.
 
