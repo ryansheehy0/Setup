@@ -21,3 +21,8 @@ Clipboard.
 Only fix the spelling and grammar. Do not change the wording at all. Do not use semicolons. If the grammar is already correct, only output "Already correct." If incorrect, output a bullet list of things you would change.
 
 Clipboard.
+
+## Why local AI?
+1. AI companies have no claims over your writing, which matters if you're writing becomes popular or makes money.
+2. Cloud AI models can change unexpectedly and become worse.
+3. Prevents AI companies from training on your writing.
