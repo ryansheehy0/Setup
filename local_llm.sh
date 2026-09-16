@@ -1,0 +1,1 @@
+llama serve -hf ggml-org/Qwen3-1.7B-GGUF:Q4_K_M
