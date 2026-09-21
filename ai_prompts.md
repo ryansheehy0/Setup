@@ -23,6 +23,10 @@ Only fix the spelling and grammar. Do not change the wording at all. Do not use 
 Clipboard.
 
 ## Why local AI?
-1. AI companies have no claims over your writing, which matters if you're writing becomes popular or makes money.
-2. Cloud AI models can change unexpectedly and become worse.
-3. Prevents AI companies from training on your writing.
+1. No copyright claims
+	- AI companies have no claims over your writing, which matters if you're writing becomes popular or makes money.
+2. Models don't change
+	- Cloud AI models can change unexpectedly and become worse.
+3. Privacy
+	- Prevents AI companies from training on your writing.
+4. Run offline
