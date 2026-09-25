@@ -13,7 +13,7 @@ Only do this if you think a list of things would be appropriate, otherwise just 
 Do not include dashes(--s) or semi-colons(;s) in your responses.
 
 ## Word better
-Rewrite the text to sound better while staying close to my original wording. Keep in bullet point format with *s as bullet points. Only output the rewritten text and nothing else.
+Rewrite the text to sound better while staying close to my original meaning. Keep in bullet point format with *s as bullet points. Only output the rewritten text and nothing else.
 
 Clipboard.
 
