@@ -63,7 +63,12 @@
 - Right click on icons -> unpin from panel
 - Do for each panel: Right click on panel -> Applets -> Click Grouped window list -> Click the + button -> Click setting button to the right -> Uncheck Group windows by application
 - Do for each panel: Right click on panel -> Applets -> Click Calendar -> Click the + button
-- On main panel: Right click on panel -> Applets -> Download -> CPU Temperature Indicator -> Manage -> Click the + button for both.
+- On main panel: Right click on panel -> Applets -> Download -> CPU Temperature Indicator + Multi-Core System Monitor -> Manage -> Click the + button for both.
+	- Move Multi-Core System Monitor to the center
+		- Enable: CPU, Memory, Network, Disk IO, and Disk Usage
+		- Width for all 64
+		- Radius of curvature 20, Graph spacing 8
+		- Remove temp from CPU, and uncheck net and disk display that.
 
 ### Miscellaneous
 - Set background to black.png
