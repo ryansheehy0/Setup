@@ -26,7 +26,11 @@
 ### System Settings
 - Mouse and Touchpad -> Touchpad -> Uncheck Reverse scrolling direction
 - Date & Time -> Uncheck Use 24h clock, check Display the date, and First day of week Monday.
-- Themes -> Mouse Pointer: Adwaita, Applications: Mint-Y-Dark-Blue, Icons: Mint-Y-Sand, Desktop: Mint-Y-Dark-Blue
+- Themes -> Mouse Pointer: Adwaita, Applications: Mint-Y-Dark-Blue, Icons: Mint-Y-Sand, Desktop: Mint-Y-Dark-Grey
+	- cd /usr/share/themes/Mint-Y-Dark-Grey/cinnamon
+	- sudo nano cinnamon.css
+	- In .panel-top, .panel-bottom, .panel-left, .panel-right change `background-color: rgba(47, 47, 47, 0.99)` to `background-color: rgba(47, 47, 47, 0.99)`
+	- Search and replace all `70737a` to `ffffff`
 - Desktop -> Uncheck Everything under Desktop Icons
 - Effects -> Uncheck Desktop and window effects
 - Screensaver -> Customize -> Uncheck Show album art
