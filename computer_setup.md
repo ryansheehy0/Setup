@@ -37,9 +37,8 @@
 - Keyboard -> Layouts -> Options -> Caps Lock behavior -> Make Caps Lock an additional Super
 - Keyboard -> Shortcuts -> Switch monitor configuration -> Click on Super+P and press delete -> unassigned
 - Startup Applications
-	- Chromium Web Browser
-		- Add(+ button) -> Application -> Chromium Web Browser
-	- Visual Studio Code
+ 	- Chromium Web Browser
+  - Zed
 - Windows -> Alt-Tab
   - Check Display the alt-tab switcher on the primary monitor instead of the active one
   - Delay before displaying the alt-tab switcher(milliseconds) set to 0
@@ -87,18 +86,12 @@
 - Node ubuntu version: https://github.com/nodesource/distributions/blob/master/README.md
 - Chromium Web Browser
 	- Restart chrome: `chrome://restart`
+- Zed
 - Other less important
 	- OBS Studio
 	- Balena Etcher
 	- Zoom
-
-### Neovim
-- Install
-	- sudo add-apt-repository ppa:neovim-ppa/unstable
-	- sudo apt-get update
-	- sudo apt-get install neovim
-- Sets up clipboard with "+" registry in neovim
-	- sudo apt-get install xclip
+	- Peek
 
 ### Terminal
 - Edit -> Preferences
@@ -112,15 +105,6 @@
   - Search for PS1. There should be 3 places where the variable is set.
   - Remove the `\u@\h :` from all 3 places where the variable is set.
     - Ex: `PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '` -> `PS1='${debian_chroot:+($debian_chroot)}\[\033[01;34m\]\w\[\033[00m\]\$ '`
-
-### VS Code
-- Download from website: https://code.visualstudio.com/
-- settings.json
-- keybindings.json
-- Run node installExtentions.js
-- Uncheck Vscode-neovim: Neovim Clean
-- Copy and paste init.vim into ~/.config/nvim/
-- Ctrl+Shift+P -> Spell: Show Spelling Issues
 
 ### Chromium Web Browser
 - Extensions
@@ -140,7 +124,7 @@
 		- Pokemon Showdown Type Helper
 - Settings
 	- Performance
-		- Check memory saver -> Balanced
+		- Check memory saver -> Maximum
 		- Check preload pages -> Standard preloading
 	- Appearance
 		- Uncheck Show home button
@@ -165,6 +149,7 @@
 - Discord
 - Gmail/Youtube
 	- ChatGPT
+	- Claud
 - Github
 - Setup ssh for git
 - Amazon
@@ -173,17 +158,17 @@
 ## Windows
 - Window 1
 	- https://mail.google.com/
-	- https://github.com/ryansheehy0
+	- https://discord.com/
 - Window 2
 	- https://chatgpt.com/
-	- https://gemini.google.com/
-	- https://nestedtodos.com/
-	- https://discord.com/
+	- https://claude.ai/
 - Window 3
 	- https://rscheatsheets.com/
-	- https://www.youtube.com/
+	- My weight spread sheet
+	- https://www.meetup.com/
+	- https://www.youtube.com/ or https://music.youtube.com/
 - Window 4
-	- https://www.youtube.com/
+	- https://nestedtodos.com/
 
 ## Phone
 ### Applications
