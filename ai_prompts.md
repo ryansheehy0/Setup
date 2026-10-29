@@ -1,4 +1,4 @@
-# Setup
+# Setup local AI
 - `curl -LsSf https://llama.app/install.sh | sh`
 - Find gguf model from huggingface.co
 	- `llama serve -hf ggml-org/Qwen3-1.7B-GGUF:Q4_K_M`

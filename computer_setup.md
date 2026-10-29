@@ -63,6 +63,7 @@
 - Do for each panel: Right click on panel -> Applets -> Click Grouped window list -> Click the + button -> Click setting button to the right -> Uncheck Group windows by application
 - Do for each panel: Right click on panel -> Applets -> Click Calendar -> Click the + button
 - On main panel: Right click on panel -> Applets -> Download -> CPU Temperature Indicator + Multi-Core System Monitor -> Manage -> Click the + button for both.
+  - Add QRedShifter
 	- Move Multi-Core System Monitor to the center
 		- Enable: CPU, Memory, Network, Disk IO, and Disk Usage
 		- Width for all 64
@@ -77,10 +78,7 @@
 - Right click Menu(Linux mint icon) -> Configure -> Menu -> Uncheck Show recents
 
 ## Applications
-- sudo apt install git
-- sudo apt install g++
-- sudo apt install make
-- sudo apt install ncdu
+- sudo apt install git, g++, make, ncdu, nvim
 - Gnome-system-monitor
 - Gpick
 - Node ubuntu version: https://github.com/nodesource/distributions/blob/master/README.md
@@ -92,6 +90,14 @@
 	- Balena Etcher
 	- Zoom
 	- Peek
+	
+### Neovim
+- Install
+	- sudo add-apt-repository ppa:neovim-ppa/unstable
+	- sudo apt-get update
+	- sudo apt-get install neovim
+- Sets up clipboard with "+" registry in neovim
+	- sudo apt-get install xclip
 
 ### Terminal
 - Edit -> Preferences
