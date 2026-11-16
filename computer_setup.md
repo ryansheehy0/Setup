@@ -85,6 +85,8 @@
 - Chromium Web Browser
 	- Restart chrome: `chrome://restart`
 - Zed
+- Speech Note
+	- https://github.com/mkiol/dsnote
 - Other less important
 	- OBS Studio
 	- Balena Etcher
