@@ -182,27 +182,27 @@
 ### Applications
 - Bottom row
 	- Google maps
-	- DuckDuckGo
+	- Chrome
 	- Text messages
-	- Youtube
 - 1st row
 	- Venmo
 	- Discord
-	- Phone
+	- Claude
 	- ChatGPT
 - 2nd row
 	- Clock
 	- Gmail
-	- Calculator
+	- Phone
 	- Note taking app
 - 3rd row
 	- Canvas
 	- Private note taking app
-	- Droid Dashcam
+	- Calculator
 	- Camera
 - Other
 	- Uber
-	- Desmos
-	- Offline Games - No Wifi Games
+	- Bubble level
+	- Duo Mobile
+	- Meetup
 
 ### Settings
