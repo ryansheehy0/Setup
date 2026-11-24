@@ -15,9 +15,6 @@
 - [Framework laptop micro-phone not working](#framework-laptop-micro-phone-not-working)
 - [Sign Into](#sign-into)
 - [Windows](#windows)
-- [Phone](#phone)
-	- [Applications](#applications)
-	- [Settings](#settings)
 
 <!-- /TOC -->
 
@@ -166,6 +163,7 @@
 ## Windows
 - Window 1
 	- https://mail.google.com/
+	- https://messages.google.com/
 	- https://discord.com/
 - Window 2
 	- https://chatgpt.com/
@@ -174,35 +172,6 @@
 	- https://rscheatsheets.com/
 	- My weight spread sheet
 	- https://www.meetup.com/
-	- https://www.youtube.com/ or https://music.youtube.com/
+	- https://www.youtube.com/
 - Window 4
 	- https://nestedtodos.com/
-
-## Phone
-### Applications
-- Bottom row
-	- Google maps
-	- Chrome
-	- Text messages
-- 1st row
-	- Venmo
-	- Discord
-	- Claude
-	- ChatGPT
-- 2nd row
-	- Clock
-	- Gmail
-	- Phone
-	- Note taking app
-- 3rd row
-	- Canvas
-	- Private note taking app
-	- Calculator
-	- Camera
-- Other
-	- Uber
-	- Bubble level
-	- Duo Mobile
-	- Meetup
-
-### Settings

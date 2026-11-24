@@ -1,0 +1,26 @@
+# Phone
+## Applications
+- Bottom row
+	- Google maps
+	- Chrome
+	- Google Messages
+- 1st row
+	- Venmo
+	- Discord
+	- Claude
+	- ChatGPT
+- 2nd row
+	- Clock
+	- Gmail
+	- Phone
+	- Note taking app
+- 3rd row
+	- Canvas
+	- Private note taking app
+	- Calculator
+	- Camera
+- Other
+	- Uber
+	- Bubble level
+	- Duo Mobile
+	- Meetup
